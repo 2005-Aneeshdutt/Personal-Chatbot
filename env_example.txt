@@ -1,0 +1,13 @@
+# Environment Variables Template
+# Copy this file to .env and fill in your values
+# Or set these as environment variables directly
+
+# OpenAI API Key (if using OpenAI)
+OPENAI_API_KEY=your-openai-api-key-here
+
+# Ollama Configuration (if using Ollama)
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama2
+
+# Admin Panel Password (change this in admin.py for production!)
+ADMIN_PASSWORD=admin123

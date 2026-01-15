@@ -1,0 +1,57 @@
+{
+  "CSE": {
+    "Semester 1": {
+      "Monday": ["Mathematics I", "Programming Fundamentals", "Physics"],
+      "Tuesday": ["Chemistry", "Programming Lab", "English"],
+      "Wednesday": ["Mathematics I", "Data Structures", "Physics Lab"],
+      "Thursday": ["Programming Fundamentals", "Chemistry Lab", "Workshop"],
+      "Friday": ["Mathematics I", "Data Structures", "English"]
+    },
+    "Semester 2": {
+      "Monday": ["Mathematics II", "OOPS", "Digital Logic"],
+      "Tuesday": ["Database Systems", "OOPS Lab", "Discrete Mathematics"],
+      "Wednesday": ["Mathematics II", "Computer Networks", "Digital Logic Lab"],
+      "Thursday": ["Database Systems", "Computer Networks Lab", "Economics"],
+      "Friday": ["Mathematics II", "OOPS", "Discrete Mathematics"]
+    },
+    "Semester 3": {
+      "Monday": ["DSA", "Math", "Physics"],
+      "Tuesday": ["OOPS", "Lab", "DSA"],
+      "Wednesday": ["Operating Systems", "Computer Networks", "DSA Lab"],
+      "Thursday": ["OOPS Lab", "Database Systems", "Theory of Computation"],
+      "Friday": ["Operating Systems", "Math", "Computer Networks"]
+    },
+    "Semester 4": {
+      "Monday": ["Algorithm Design", "Software Engineering", "Machine Learning"],
+      "Tuesday": ["Web Development", "ML Lab", "Compiler Design"],
+      "Wednesday": ["Algorithm Design", "Software Engineering Lab", "Cryptography"],
+      "Thursday": ["Web Development Lab", "Compiler Design Lab", "Elective I"],
+      "Friday": ["Machine Learning", "Software Engineering", "Elective I"]
+    }
+  },
+  "ECE": {
+    "Semester 1": {
+      "Monday": ["Mathematics I", "Basic Electronics", "Physics"],
+      "Tuesday": ["Chemistry", "Electronics Lab", "English"],
+      "Wednesday": ["Mathematics I", "Circuit Analysis", "Physics Lab"],
+      "Thursday": ["Basic Electronics", "Chemistry Lab", "Workshop"],
+      "Friday": ["Mathematics I", "Circuit Analysis", "English"]
+    },
+    "Semester 3": {
+      "Monday": ["Digital Electronics", "Signals & Systems", "Electromagnetic Theory"],
+      "Tuesday": ["Microprocessors", "Digital Lab", "Control Systems"],
+      "Wednesday": ["Signals & Systems", "Communication Systems", "Microprocessors Lab"],
+      "Thursday": ["Digital Electronics", "Control Systems Lab", "Mathematics III"],
+      "Friday": ["Communication Systems", "Electromagnetic Theory", "Mathematics III"]
+    }
+  },
+  "ME": {
+    "Semester 1": {
+      "Monday": ["Mathematics I", "Engineering Mechanics", "Physics"],
+      "Tuesday": ["Chemistry", "Mechanics Lab", "English"],
+      "Wednesday": ["Mathematics I", "Thermodynamics", "Physics Lab"],
+      "Thursday": ["Engineering Mechanics", "Chemistry Lab", "Workshop"],
+      "Friday": ["Mathematics I", "Thermodynamics", "English"]
+    }
+  }
+}

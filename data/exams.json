@@ -1,0 +1,59 @@
+{
+  "mid_semester": {
+    "CSE": {
+      "Semester 1": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["Mathematics I", "Programming Fundamentals", "Physics", "Chemistry"]
+      },
+      "Semester 2": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["Mathematics II", "OOPS", "Database Systems", "Computer Networks"]
+      },
+      "Semester 3": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["DSA", "OOPS", "Operating Systems", "Database Systems"]
+      },
+      "Semester 4": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["Algorithm Design", "Software Engineering", "Machine Learning", "Compiler Design"]
+      }
+    },
+    "ECE": {
+      "Semester 1": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["Mathematics I", "Basic Electronics", "Physics", "Circuit Analysis"]
+      },
+      "Semester 3": {
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-20",
+        "subjects": ["Digital Electronics", "Signals & Systems", "Microprocessors", "Communication Systems"]
+      }
+    }
+  },
+  "end_semester": {
+    "CSE": {
+      "Semester 1": {
+        "start_date": "2024-12-01",
+        "end_date": "2024-12-15",
+        "subjects": ["Mathematics I", "Programming Fundamentals", "Physics", "Chemistry", "English"]
+      },
+      "Semester 3": {
+        "start_date": "2024-12-01",
+        "end_date": "2024-12-15",
+        "subjects": ["DSA", "OOPS", "Operating Systems", "Database Systems", "Computer Networks"]
+      }
+    },
+    "ECE": {
+      "Semester 3": {
+        "start_date": "2024-12-01",
+        "end_date": "2024-12-15",
+        "subjects": ["Digital Electronics", "Signals & Systems", "Microprocessors", "Communication Systems"]
+      }
+    }
+  }
+}

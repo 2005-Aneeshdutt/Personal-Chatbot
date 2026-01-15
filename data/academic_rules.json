@@ -1,0 +1,46 @@
+{
+  "credit_requirements": {
+    "minimum_credits_to_pass": 120,
+    "credits_per_semester": 20,
+    "total_credits_for_degree": 160,
+    "minimum_attendance_percentage": 75,
+    "backlog_allowed": 4
+  },
+  "attendance_rules": {
+    "minimum_percentage": 75,
+    "consequences_below_75": "Not eligible for end-semester exams",
+    "medical_leave_allowed": "Up to 10 days per semester",
+    "leave_application_process": "Submit to class coordinator with medical certificate"
+  },
+  "department_contacts": {
+    "CSE": {
+      "HOD": "Dr. Rajesh Kumar",
+      "email": "hod.cse@college.edu",
+      "phone": "+91-1234567890",
+      "office_location": "Block A, Room 201"
+    },
+    "ECE": {
+      "HOD": "Dr. Priya Sharma",
+      "email": "hod.ece@college.edu",
+      "phone": "+91-1234567891",
+      "office_location": "Block B, Room 301"
+    },
+    "ME": {
+      "HOD": "Dr. Anil Patel",
+      "email": "hod.me@college.edu",
+      "phone": "+91-1234567892",
+      "office_location": "Block C, Room 401"
+    },
+    "general": {
+      "admin_office": "admin@college.edu",
+      "phone": "+91-1234567899",
+      "address": "College Campus, City, State, PIN"
+    }
+  },
+  "exam_rules": {
+    "carry_forward": "Maximum 2 subjects allowed",
+    "revaluation_process": "Apply within 7 days of result declaration",
+    "supplementary_exam": "Conducted in next semester",
+    "hall_ticket": "Required for all exams, download from portal"
+  }
+}
