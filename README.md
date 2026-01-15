@@ -95,48 +95,6 @@ Expected output: `[OK] All tests passed! Setup looks good.`
 
 ---
 
-## 📋 Supported Queries
-
-The chatbot can answer questions in the following categories:
-
-### 1. Timetable Information
-```
-"What is tomorrow's timetable for CSE sem 3?"
-"Show me Tuesday classes for ECE semester 1"
-"What about Tuesday?" (follow-up question)
-```
-
-### 2. Exam Schedules
-```
-"When are mid-semester exams?"
-"When are end-semester exams for CSE semester 3?"
-```
-
-### 3. Holiday Information
-```
-"Is tomorrow a holiday?"
-"Is 2024-08-15 a holiday?"
-```
-
-### 4. Academic Requirements
-```
-"How many credits are needed to pass?"
-"What are the credit requirements?"
-```
-
-### 5. Attendance Policies
-```
-"What is the minimum attendance required?"
-"What happens if attendance is below 75%?"
-```
-
-### 6. Department Contacts
-```
-"Who is HOD of CSE?"
-"What is the contact for ECE department?"
-```
-
----
 
 
 
