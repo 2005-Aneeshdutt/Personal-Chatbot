@@ -138,48 +138,7 @@ The chatbot can answer questions in the following categories:
 
 ---
 
-## 🔧 Configuration
 
-### LLM Setup (Optional)
-
-The chatbot works **perfectly fine without LLM** for all knowledge base queries. LLM is only needed for general questions not in the knowledge base.
-
-#### Option A: OpenAI (Cloud-based)
-
-1. Get an API key from [OpenAI Platform](https://platform.openai.com/api-keys)
-2. Set environment variable:
-   ```bash
-   # Windows PowerShell
-   $env:OPENAI_API_KEY="your-api-key-here"
-   
-   # Windows CMD
-   set OPENAI_API_KEY=your-api-key-here
-   
-   # Linux/Mac
-   export OPENAI_API_KEY="your-api-key-here"
-   ```
-3. In the app sidebar, select **"openai"** and enter model (e.g., `gpt-3.5-turbo`)
-
-#### Option B: Ollama (Local - Recommended for Privacy)
-
-1. Install Ollama from [ollama.ai](https://ollama.ai)
-2. Download a model:
-   ```bash
-   ollama pull llama2
-   # or
-   ollama pull mistral
-   ```
-3. Verify installation:
-   ```bash
-   ollama list
-   ```
-4. In the app sidebar, select **"ollama"** and enter model name (e.g., `llama2`)
-
-#### Option C: No LLM (Knowledge Base Only)
-
-The chatbot works excellently without any LLM setup. Simply use queries that match the knowledge base intents (timetable, exams, holidays, credits, attendance, contacts).
-
----
 
 ## 📁 Project Structure
 
