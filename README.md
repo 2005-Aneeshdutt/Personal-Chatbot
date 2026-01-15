@@ -21,12 +21,12 @@ The **College Helpdesk Chatbot** is a production-ready conversational AI system 
 
 ### Key Highlights
 
-- ⚡ **Fast Responses**: Knowledge base queries return instantly without LLM overhead
-- 🧠 **Smart Context Management**: Remembers conversation history for natural follow-up questions
-- 🔧 **Easy Customization**: JSON-based knowledge base makes updates simple
-- 🎯 **Modular Architecture**: Clean, maintainable codebase with separation of concerns
-- 🌐 **Dual LLM Support**: Works with OpenAI (cloud) or Ollama (local) for general queries
-- 💬 **User-Friendly UI**: Beautiful chat interface with FAQ buttons and sample questions
+-  **Fast Responses**: Knowledge base queries return instantly without LLM overhead
+-  **Smart Context Management**: Remembers conversation history for natural follow-up questions
+-  **Easy Customization**: JSON-based knowledge base makes updates simple
+-  **Modular Architecture**: Clean, maintainable codebase with separation of concerns
+-  **Dual LLM Support**: Works with OpenAI (cloud) or Ollama (local) for general queries
+-  **User-Friendly UI**: Beautiful chat interface with FAQ buttons and sample questions
 
 ---
 
@@ -36,12 +36,12 @@ The **College Helpdesk Chatbot** is a production-ready conversational AI system 
 
 | Feature | Description |
 |---------|-------------|
-| 📅 **Timetable Queries** | Get class schedules by department, semester, and day |
-| 📝 **Exam Schedules** | Query mid-semester and end-semester exam dates |
-| 🎉 **Holiday Calendar** | Check if specific dates are holidays |
-| 📊 **Academic Rules** | Access credit requirements and attendance policies |
-| 📞 **Department Contacts** | Find HOD information and department details |
-| 💡 **FAQ Quick Access** | One-click buttons for common questions |
+| **Timetable Queries** | Get class schedules by department, semester, and day |
+|  **Exam Schedules** | Query mid-semester and end-semester exam dates |
+|  **Holiday Calendar** | Check if specific dates are holidays |
+|  **Academic Rules** | Access credit requirements and attendance policies |
+|  **Department Contacts** | Find HOD information and department details |
+|  **FAQ Quick Access** | One-click buttons for common questions |
 
 ### Technical Features
 
