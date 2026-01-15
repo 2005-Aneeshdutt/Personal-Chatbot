@@ -29,3 +29,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Documentation files to exclude
+GITHUB_SETUP.md
+QUICKSTART.md
+LLM_EXPLAINED.md
