@@ -1,19 +1,10 @@
-"""
-Entity Extraction Module
-Extracts entities like department, semester, date, and day from user queries.
-"""
-
 import re
 from datetime import datetime, timedelta
-from typing import Dict, Optional, List
+from typing import Dict, Optional
 
 
 class EntityExtractor:
-    """Extracts entities from natural language queries."""
-    
     def __init__(self):
-        """Initialize entity patterns."""
-        # Department patterns
         self.department_patterns = [
             r'\b(cse|computer science|computer science engineering)\b',
             r'\b(ece|electronics|electronics and communication)\b',
@@ -23,40 +14,30 @@ class EntityExtractor:
             r'\b(bt|biotech|biotechnology)\b'
         ]
         
-        # Semester patterns
         self.semester_patterns = [
             r'\b(sem\s*[1-8]|semester\s*[1-8]|1st\s*sem|first\s*sem|2nd\s*sem|second\s*sem|3rd\s*sem|third\s*sem|4th\s*sem|fourth\s*sem)\b',
             r'\bsem\s*(\d+)\b',
             r'\bsemester\s*(\d+)\b'
         ]
         
-        # Day patterns
         self.day_patterns = [
             r'\b(monday|mon)\b', r'\b(tuesday|tue)\b', r'\b(wednesday|wed)\b',
             r'\b(thursday|thu)\b', r'\b(friday|fri)\b', r'\b(saturday|sat)\b',
             r'\b(sunday|sun)\b'
         ]
         
-        # Date patterns
         self.date_patterns = [
             r'\b(tomorrow|today)\b',
-            r'\b(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})\b',  # DD-MM-YYYY or DD/MM/YYYY
-            r'\b(\d{4}[-/]\d{1,2}[-/]\d{1,2})\b',    # YYYY-MM-DD or YYYY/MM/DD
+            r'\b(\d{1,2}[-/]\d{1,2}[-/]\d{2,4})\b',
+            r'\b(\d{4}[-/]\d{1,2}[-/]\d{1,2})\b',
         ]
         
-        # Exam type patterns
         self.exam_type_patterns = [
             r'\b(mid\s*sem|mid\s*semester|midterm)\b',
             r'\b(end\s*sem|end\s*semester|final\s*exam)\b'
         ]
     
-    def extract_department(self, query: str) -> Optional[str]:
-        """
-        Extract department from query.
-        
-        Returns:
-            Department code (e.g., "CSE", "ECE") or None
-        """
+    def extract_department(self, query):
         query_lower = query.lower()
         
         department_map = {
@@ -90,19 +71,12 @@ class EntityExtractor:
         
         return None
     
-    def extract_semester(self, query: str) -> Optional[str]:
-        """
-        Extract semester from query.
-        
-        Returns:
-            Semester string (e.g., "Semester 3") or None
-        """
+    def extract_semester(self, query):
         query_lower = query.lower()
         
         for pattern in self.semester_patterns:
             match = re.search(pattern, query_lower, re.IGNORECASE)
             if match:
-                # Extract number from match
                 number_match = re.search(r'\d+', match.group(0))
                 if number_match:
                     sem_num = int(number_match.group(0))
@@ -110,14 +84,7 @@ class EntityExtractor:
         
         return None
     
-    def extract_day(self, query: str) -> Optional[str]:
-        """
-        Extract day of week from query.
-        Also handles "tomorrow" and "today".
-        
-        Returns:
-            Day name (e.g., "Monday") or None
-        """
+    def extract_day(self, query):
         query_lower = query.lower()
         
         day_map = {
@@ -130,46 +97,35 @@ class EntityExtractor:
             'sunday': 'Sunday', 'sun': 'Sunday'
         }
         
-        # Check for explicit day names
         for day_key, day_value in day_map.items():
             if re.search(rf'\b{day_key}\b', query_lower, re.IGNORECASE):
                 return day_value
         
-        # Check for "tomorrow" or "today"
         if re.search(r'\btomorrow\b', query_lower):
             tomorrow = datetime.now() + timedelta(days=1)
-            return tomorrow.strftime("%A")  # Full day name
+            return tomorrow.strftime("%A")
         
         if re.search(r'\btoday\b', query_lower):
             today = datetime.now()
-            return today.strftime("%A")  # Full day name
+            return today.strftime("%A")
         
         return None
     
-    def extract_date(self, query: str) -> Optional[str]:
-        """
-        Extract date from query.
-        
-        Returns:
-            Date string in format "YYYY-MM-DD" or "MM-DD" or None
-        """
+    def extract_date(self, query):
         query_lower = query.lower()
         today = datetime.now()
         
-        # Check for relative dates
         if re.search(r'\btomorrow\b', query_lower):
             tomorrow = today + timedelta(days=1)
             return tomorrow.strftime("%Y-%m-%d")
         elif re.search(r'\btoday\b', query_lower):
             return today.strftime("%Y-%m-%d")
         
-        # Check for date patterns
-        for pattern in self.date_patterns[1:]:  # Skip relative date patterns
+        for pattern in self.date_patterns[1:]:
             match = re.search(pattern, query_lower)
             if match:
                 date_str = match.group(1)
                 try:
-                    # Try different date formats
                     for fmt in ["%d-%m-%Y", "%d/%m/%Y", "%Y-%m-%d", "%Y/%m/%d", "%d-%m-%y", "%d/%m/%y"]:
                         try:
                             date_obj = datetime.strptime(date_str, fmt)
@@ -181,13 +137,7 @@ class EntityExtractor:
         
         return None
     
-    def extract_exam_type(self, query: str) -> Optional[str]:
-        """
-        Extract exam type from query.
-        
-        Returns:
-            "mid_semester" or "end_semester" or None
-        """
+    def extract_exam_type(self, query):
         query_lower = query.lower()
         
         if re.search(self.exam_type_patterns[0], query_lower, re.IGNORECASE):
@@ -197,13 +147,7 @@ class EntityExtractor:
         
         return None
     
-    def extract_all(self, query: str) -> Dict[str, Optional[str]]:
-        """
-        Extract all entities from query.
-        
-        Returns:
-            Dictionary of extracted entities
-        """
+    def extract_all(self, query):
         return {
             "department": self.extract_department(query),
             "semester": self.extract_semester(query),

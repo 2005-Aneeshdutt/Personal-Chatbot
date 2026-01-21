@@ -1,11 +1,6 @@
-"""
-Quick setup test to verify all modules can be imported and basic functionality works.
-"""
-
 import sys
 
 def test_imports():
-    """Test if all modules can be imported."""
     try:
         from knowledge_base import KnowledgeBase
         print("[OK] knowledge_base.py imported successfully")
@@ -25,19 +20,16 @@ def test_imports():
         return False
 
 def test_knowledge_base():
-    """Test knowledge base loading."""
     try:
         from knowledge_base import KnowledgeBase
         kb = KnowledgeBase()
         
-        # Test timetable
         timetable = kb.get_timetable("CSE", "Semester 3", "Monday")
         if timetable:
             print(f"[OK] Knowledge base loaded - found {len(timetable)} classes for CSE Sem 3 Monday")
         else:
             print("[WARN] Knowledge base loaded but no data found for test query")
         
-        # Test departments
         depts = kb.get_all_departments()
         print(f"[OK] Found {len(depts)} departments: {', '.join(depts)}")
         
@@ -47,7 +39,6 @@ def test_knowledge_base():
         return False
 
 def test_intent_detection():
-    """Test intent detection."""
     try:
         from intent_detector import IntentDetector
         detector = IntentDetector()
@@ -72,7 +63,6 @@ def test_intent_detection():
         return False
 
 def test_entity_extraction():
-    """Test entity extraction."""
     try:
         from entity_extractor import EntityExtractor
         extractor = EntityExtractor()

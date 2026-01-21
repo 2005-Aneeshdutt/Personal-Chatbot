@@ -1,17 +1,9 @@
-"""
-Intent Detection Module
-Detects user intent from natural language queries using keyword matching and regex.
-"""
-
 import re
 from typing import Dict, Optional, Tuple, List
 
 
 class IntentDetector:
-    """Detects user intent from text queries."""
-    
     def __init__(self):
-        """Initialize intent patterns."""
         self.intent_patterns = {
             "timetable": [
                 r"timetable", r"schedule", r"class schedule", r"what.*class",
@@ -45,20 +37,10 @@ class IntentDetector:
             ]
         }
     
-    def detect_intent(self, query: str) -> Tuple[Optional[str], float]:
-        """
-        Detect intent from query.
-        
-        Args:
-            query: User query string
-        
-        Returns:
-            Tuple of (intent_name, confidence_score)
-        """
+    def detect_intent(self, query):
         query_lower = query.lower()
         intent_scores = {}
         
-        # Score each intent based on pattern matches
         for intent, patterns in self.intent_patterns.items():
             score = 0
             for pattern in patterns:
@@ -71,12 +53,10 @@ class IntentDetector:
         if not intent_scores:
             return None, 0.0
         
-        # Get intent with highest score
         best_intent = max(intent_scores, key=intent_scores.get)
-        confidence = min(intent_scores[best_intent] / 3.0, 1.0)  # Normalize to 0-1
+        confidence = min(intent_scores[best_intent] / 3.0, 1.0)
         
         return best_intent, confidence
     
-    def get_all_intents(self) -> List[str]:
-        """Get list of all supported intents."""
+    def get_all_intents(self):
         return list(self.intent_patterns.keys())

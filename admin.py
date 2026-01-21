@@ -1,8 +1,3 @@
-"""
-Admin Panel for Editing Knowledge Base Data
-Allows non-technical users to update college information without editing JSON files.
-"""
-
 import streamlit as st
 import json
 import os
@@ -10,8 +5,7 @@ from datetime import datetime
 from knowledge_base import KnowledgeBase
 
 
-def load_json_file(filepath: str) -> dict:
-    """Load JSON file."""
+def load_json_file(filepath):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -22,52 +16,44 @@ def load_json_file(filepath: str) -> dict:
         return {}
 
 
-def save_json_file(filepath: str, data: dict):
-    """Save data to JSON file."""
+def save_json_file(filepath, data):
     os.makedirs(os.path.dirname(filepath) if os.path.dirname(filepath) else '.', exist_ok=True)
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    st.success(f"✅ Saved to {filepath}")
+    st.success(f"Saved to {filepath}")
 
 
 def main():
-    """Admin panel main function."""
-    
     st.set_page_config(
         page_title="Admin Panel - College Helpdesk",
-        page_icon="⚙️",
+        page_icon="",
         layout="wide"
     )
     
-    st.title("⚙️ Admin Panel - Knowledge Base Editor")
+    st.title("Admin Panel - Knowledge Base Editor")
     st.markdown("Edit college information without touching code files.")
     
-    # Password protection (simple - for production, use proper auth)
     if "admin_authenticated" not in st.session_state:
         st.session_state.admin_authenticated = False
     
-    # Simple password check
     if not st.session_state.admin_authenticated:
         password = st.text_input("Enter Admin Password:", type="password", key="admin_pwd")
         if st.button("Login"):
-            # Default password: "admin123" (change this!)
             if password == "admin123":
                 st.session_state.admin_authenticated = True
                 st.rerun()
             else:
-                st.error("❌ Incorrect password!")
-        st.info("💡 Default password: `admin123` (change this in code for production!)")
+                st.error("Incorrect password!")
+        st.info("Default password: admin123 (change this in code for production!)")
         return
     
-    # Logout button
-    if st.sidebar.button("🚪 Logout"):
+    if st.sidebar.button("Logout"):
         st.session_state.admin_authenticated = False
         st.rerun()
     
     data_dir = "data"
-    tabs = st.tabs(["📅 Timetable", "📝 Exams", "🎉 Holidays", "📋 Academic Rules", "📊 View All Data"])
+    tabs = st.tabs(["Timetable", "Exams", "Holidays", "Academic Rules", "View All Data"])
     
-    # Tab 1: Timetable Editor
     with tabs[0]:
         st.header("Edit Timetable")
         
@@ -101,7 +87,6 @@ def main():
                     if new_sem not in timetable_data[dept_upper]:
                         timetable_data[dept_upper][new_sem] = {}
                     
-                    # Parse classes
                     if classes_input:
                         classes = [c.strip() for c in classes_input.replace('\n', ',').split(',') if c.strip()]
                         timetable_data[dept_upper][new_sem][selected_day] = classes
@@ -119,7 +104,6 @@ def main():
                 timetable_data = load_json_file(timetable_file)
                 st.rerun()
     
-    # Tab 2: Exams Editor
     with tabs[1]:
         st.header("Edit Exam Schedule")
         
@@ -166,7 +150,6 @@ def main():
             st.subheader("Current Exam Data")
             st.json(exams_data)
     
-    # Tab 3: Holidays Editor
     with tabs[2]:
         st.header("Edit Holidays")
         
@@ -197,7 +180,6 @@ def main():
             st.subheader("Current Holidays")
             st.json(holidays_data)
     
-    # Tab 4: Academic Rules Editor
     with tabs[3]:
         st.header("Edit Academic Rules")
         
@@ -252,7 +234,6 @@ def main():
             
             save_json_file(rules_file, rules_data)
     
-    # Tab 5: View All Data
     with tabs[4]:
         st.header("View All Knowledge Base Data")
         
@@ -262,10 +243,10 @@ def main():
         st.write(", ".join(kb.get_all_departments()) if kb.get_all_departments() else "No departments found")
         
         st.subheader("Data Summary")
-        st.write(f"**Timetable entries:** {len(timetable_data)} departments")
-        st.write(f"**Exam types:** {len(exams_data)}")
-        st.write(f"**Holiday years:** {len(holidays_data)}")
-        st.write(f"**Rules configured:** Yes" if rules_data else "**Rules configured:** No")
+        st.write(f"Timetable entries: {len(timetable_data)} departments")
+        st.write(f"Exam types: {len(exams_data)}")
+        st.write(f"Holiday years: {len(holidays_data)}")
+        st.write(f"Rules configured: Yes" if rules_data else "Rules configured: No")
 
 
 if __name__ == "__main__":

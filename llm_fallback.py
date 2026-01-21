@@ -1,45 +1,19 @@
-"""
-LLM Fallback Module
-Handles fallback to LLM when answer is not found in knowledge base.
-Supports OpenAI API and local Ollama.
-"""
-
 import os
 from typing import Optional
 
 
 class LLMFallback:
-    """Handles LLM fallback responses."""
-    
-    def __init__(self, provider: str = "openai", model: str = "gpt-3.5-turbo"):
-        """
-        Initialize LLM fallback.
-        
-        Args:
-            provider: "openai" or "ollama"
-            model: Model name (e.g., "gpt-3.5-turbo" or "llama2")
-        """
+    def __init__(self, provider="openai", model="gpt-3.5-turbo"):
         self.provider = provider.lower()
         self.model = model
-        # Try to load from .env file if python-dotenv is available
         try:
             from dotenv import load_dotenv
             load_dotenv()
         except ImportError:
-            pass  # python-dotenv not installed, use environment variables only
+            pass
         self.api_key = os.getenv("OPENAI_API_KEY", "")
     
-    def get_response(self, query: str, context: Optional[str] = None) -> str:
-        """
-        Get LLM response for query.
-        
-        Args:
-            query: User query
-            context: Optional context from conversation history
-        
-        Returns:
-            LLM response string
-        """
+    def get_response(self, query, context=None):
         system_prompt = "You are a college helpdesk assistant. Answer in short and simple language. Be helpful and concise."
         
         if context:
@@ -52,8 +26,7 @@ class LLMFallback:
         else:
             return "I apologize, but I'm having trouble processing your query. Please try rephrasing your question."
     
-    def _get_openai_response(self, query: str, system_prompt: str) -> str:
-        """Get response from OpenAI API."""
+    def _get_openai_response(self, query, system_prompt):
         try:
             from openai import OpenAI
             
@@ -79,8 +52,7 @@ class LLMFallback:
         except Exception as e:
             return f"I encountered an error: {str(e)}. Please check your API key and connection."
     
-    def _get_ollama_response(self, query: str, system_prompt: str) -> str:
-        """Get response from Ollama (local LLM)."""
+    def _get_ollama_response(self, query, system_prompt):
         try:
             import requests
             
@@ -105,8 +77,7 @@ class LLMFallback:
         except Exception as e:
             return f"I encountered an error: {str(e)}"
     
-    def is_available(self) -> bool:
-        """Check if LLM provider is available."""
+    def is_available(self):
         if self.provider == "openai":
             return bool(self.api_key)
         elif self.provider == "ollama":
