@@ -1,0 +1,76 @@
+{
+  "app": {
+    "page_title": "College Helpdesk Chatbot",
+    "subtitle_markdown": "Ask me about timetables, exams, holidays, credits, attendance, and department contacts!",
+    "chat_placeholder": "Ask me anything about the college...",
+    "spinner_text": "Thinking..."
+  },
+  "sidebar": {
+    "settings_header": "Settings",
+    "llm_provider_label": "LLM Provider",
+    "llm_model_label": "LLM Model",
+    "llm_model_help": "Model name (e.g., llama2, mistral for Ollama or gpt-3.5-turbo for OpenAI)",
+    "update_llm_button": "Update LLM Settings",
+    "update_success": "Settings updated!",
+    "supported_header": "Supported Queries",
+    "supported_markdown": "- **Timetable**: \"What is tomorrow's timetable for CSE sem 3?\"\n- **Exams**: \"When are mid-semester exams?\"\n- **Holidays**: \"Is tomorrow a holiday?\"\n- **Credits**: \"How many credits are needed to pass?\"\n- **Attendance**: \"What is the minimum attendance required?\"\n- **Contacts**: \"Who is HOD of CSE?\"",
+    "faq_header": "FAQ Quick Buttons",
+    "sample_header": "Sample Questions",
+    "export_header": "Export Chat",
+    "download_history_button": "Download Chat History",
+    "download_label": "Download",
+    "no_history_info": "No chat history to export",
+    "clear_history_button": "Clear Chat History",
+    "admin_hint": "**Admin Panel:** Run `streamlit run admin.py`"
+  },
+  "faq_buttons": [
+    ["Timetable", "What is tomorrow's timetable for CSE sem 3?"],
+    ["Exams", "When are mid-semester exams for CSE semester 3?"],
+    ["Holidays", "Is tomorrow a holiday?"],
+    ["Credits", "How many credits are needed to pass?"],
+    ["Attendance", "What is the minimum attendance required?"],
+    ["Contact", "Who is HOD of CSE?"]
+  ],
+  "sample_questions": [
+    "What is tomorrow's timetable for CSE sem 3?",
+    "When are mid-semester exams for CSE semester 3?",
+    "Is tomorrow a holiday?",
+    "How many credits are needed to pass?",
+    "What is the minimum attendance required?",
+    "Who is HOD of CSE?",
+    "What about Tuesday?",
+    "And for semester 4?"
+  ],
+  "responses": {
+    "need_department": "I need to know which department you're asking about. Please specify (e.g., CSE, ECE).",
+    "need_semester": "I need to know which semester. Please specify (e.g., Semester 3).",
+    "need_department_short": "I need to know which department. Please specify (e.g., CSE, ECE).",
+    "timetable_not_found": "Sorry, I couldn't find timetable information for {dept} {sem}. Please check if the department and semester are correct.",
+    "no_classes_day": "No classes scheduled for {day} for {dept} {sem}.",
+    "exam_not_found": "Sorry, I couldn't find {exam_type} exam schedule for {dept} {sem}.",
+    "holiday_yes": "Yes, {date} is a holiday: {name}",
+    "holiday_no": "No, {date} is not a holiday.",
+    "holiday_tomorrow_yes": "Yes, tomorrow ({date}) is a holiday: {name}",
+    "holiday_tomorrow_no": "No, tomorrow ({date}) is not a holiday.",
+    "contact_not_found": "Sorry, I couldn't find contact information for {dept} department.",
+    "credits_header": "Credit Requirements:\n\n",
+    "attendance_header": "Attendance Rules:\n\n",
+    "contact_header": "{dept} Department Contacts:\n\n",
+    "followup_need_semester": "I have the department. Please also specify the semester (e.g., Semester 3).",
+    "llm_unavailable_prefix": "I'm having trouble understanding your query.",
+    "llm_unavailable_suffix": " Please try rephrasing your question or use one of the FAQ buttons in the sidebar.",
+    "weekly_timetable_title": "Weekly Timetable:\n\n",
+    "classes_on_day": "Classes on {day}:\n",
+    "no_classes_day_generic": "No classes scheduled for {day}.",
+    "exam_schedule_block": "Exam Schedule:\n\n",
+    "exam_start": "Start Date: {start}\n",
+    "exam_end": "End Date: {end}\n",
+    "exam_subjects": "Subjects:\n"
+  },
+  "export": {
+    "chat_title": "Chat History",
+    "separator": "==================================================",
+    "user_label": "You",
+    "bot_label": "Bot"
+  }
+}

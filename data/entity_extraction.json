@@ -1,0 +1,86 @@
+{
+  "department_patterns": [
+    "\\b(cse|computer science|computer science engineering)\\b",
+    "\\b(ece|electronics|electronics and communication)\\b",
+    "\\b(me|mechanical|mechanical engineering)\\b",
+    "\\b(ee|electrical|electrical engineering)\\b",
+    "\\b(ce|civil|civil engineering)\\b",
+    "\\b(bt|biotech|biotechnology)\\b"
+  ],
+  "department_canonical": {
+    "cse": "CSE",
+    "computer science": "CSE",
+    "computer science engineering": "CSE",
+    "ece": "ECE",
+    "electronics": "ECE",
+    "electronics and communication": "ECE",
+    "me": "ME",
+    "mechanical": "ME",
+    "mechanical engineering": "ME",
+    "ee": "EE",
+    "electrical": "EE",
+    "electrical engineering": "EE",
+    "ce": "CE",
+    "civil": "CE",
+    "civil engineering": "CE",
+    "bt": "BT",
+    "biotech": "BT",
+    "biotechnology": "BT"
+  },
+  "semester_patterns": [
+    "\\b(sem\\s*[1-8]|semester\\s*[1-8]|1st\\s*sem|first\\s*sem|2nd\\s*sem|second\\s*sem|3rd\\s*sem|third\\s*sem|4th\\s*sem|fourth\\s*sem)\\b",
+    "\\bsem\\s*(\\d+)\\b",
+    "\\bsemester\\s*(\\d+)\\b"
+  ],
+  "semester_label_format": "Semester {n}",
+  "day_map": {
+    "monday": "Monday",
+    "mon": "Monday",
+    "tuesday": "Tuesday",
+    "tue": "Tuesday",
+    "wednesday": "Wednesday",
+    "wed": "Wednesday",
+    "thursday": "Thursday",
+    "thu": "Thursday",
+    "friday": "Friday",
+    "fri": "Friday",
+    "saturday": "Saturday",
+    "sat": "Saturday",
+    "sunday": "Sunday",
+    "sun": "Sunday"
+  },
+  "relative_day_keywords": {
+    "tomorrow": 1,
+    "today": 0
+  },
+  "date_patterns": [
+    "\\b(tomorrow|today)\\b",
+    "\\b(\\d{1,2}[-/]\\d{1,2}[-/]\\d{2,4})\\b",
+    "\\b(\\d{4}[-/]\\d{1,2}[-/]\\d{1,2})\\b"
+  ],
+  "date_parse_formats": [
+    "%d-%m-%Y",
+    "%d/%m/%Y",
+    "%Y-%m-%d",
+    "%Y/%m/%d",
+    "%d-%m-%y",
+    "%d/%m/%y"
+  ],
+  "exam_type_rules": [
+    {
+      "pattern": "\\b(mid\\s*sem|mid\\s*semester|midterm)\\b",
+      "label": "mid_semester"
+    },
+    {
+      "pattern": "\\b(end\\s*sem|end\\s*semester|final\\s*exam)\\b",
+      "label": "end_semester"
+    }
+  ],
+  "entity_fields_order": [
+    "department",
+    "semester",
+    "day",
+    "date",
+    "exam_type"
+  ]
+}

@@ -1,0 +1,2034 @@
+[
+  {
+    "query": "What is the timetable for CSE semester 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what's the timetable for CSE semester 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the tmietable for CSE semester 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the timetable for CSE sem 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Show class schedule for ECE sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Show class plan for ECE sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Show class schdeule for ECE sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Show class timetable for ECE sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What classes are there for ME semester 5 on Monday?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 5",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What classes are there for ME term 5 on Monday?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 5",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Time table for civil sem 4 Tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Time tabel for civil sem 4 Tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Which class for biotech sem 1 on Friday?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 1",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Wihch class for biotech sem 1 on Friday?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 1",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is class schedule for electrical semester 6?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When is class schedule for electrical sem 6?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is class timetable for electrical semester 6?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is class schedule for electrical smeester 6?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Schedule for computer science engineering sem 7",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Shcedule for computer science engineering sem 7",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "timetable for computer science engineering sem 7",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What period do we have in CSE sem 3 on Wed?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What peroid do we have in CSE sem 3 on Wed?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Need timetable for ECE semester 8",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Need timetable for ECE semetser 8",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Need schedule for ECE semester 8",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Need timetable for ECE sem 8",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the class schedule for ME sem 2 on Thu?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What is the class scehdule for ME sem 2 on Thu?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "what's the class sched for ME sem 2 on Thu?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the class sched for ME sem 2 on Thu?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When are exams for CSE semester 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When are exams for CSE semestre 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When are exams for CSE term 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When are exams for CSE sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Mid sem exam date for ECE sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "Mid sem test date for ECE sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "Mid sem examination date for ECE sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "End semester exam schedule for civil semester 6",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "End semester exam schedlue for civil semester 6",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "End semester exam plan for civil semester 6",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "End semester test schedule for civil semester 6",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "Examination timetable for BT sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for BT sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Examination time table for BT sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Examination timteable for BT sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is midterm for CSE semester 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "When is midterm for CSE term 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is mitderm for CSE semester 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is midterm for CSE sem 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "Exam time for electrical sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Exam time for eelctrical sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "test time for electrical sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When are end sem exams for mechanical semester 7?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "When are end sem exams for mechancial semester 7?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "When are end sem exams for mechanical sem 7?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "Exam date for computer science sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Exam date for computre science sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "examination date for computer science sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "test date for computer science sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the exam schedule for ECE sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what's the examination schedule for ECE sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the examination schedule for ECE sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "what's the exam schedule for ECE sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is final exam for CE semester 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "When is finla exam for CE semester 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is final test for CE semester 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is final exam for CE sem 2?",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is 2026-01-26 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is 2026-01-26 a closed day?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is 2026-01-26 a off day?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Holiday on 15/08/2026?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "off day on 15/08/2026?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Hoilday on 15/08/2026?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "closed day on 15/08/2026?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is college closed on 2026/12/25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is collgee closed on 2026/12/25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is the next holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When is the next off day?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "When is the next closed day?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Holiday details for 01-01-2026",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "closed day details for 01-01-2026",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Holiday detials for 01-01-2026",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "off day details for 01-01-2026",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is 02/10/2026 a holiday in college?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is 02/10/2026 a holidya in college?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is 02/10/2026 a off day in college?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is 02/10/2026 a closed day in college?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is there any holiday on 2026-11-14",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-11-14",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is there any holdiay on 2026-11-14",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-11-14",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is there any closed day on 2026-11-14",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-11-14",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Is there any off day on 2026-11-14",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-11-14",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "College closed day on 2026-05-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-05-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Colelge closed day on 2026-05-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-05-01",
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "How many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "How many cr are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "How many credits are nedeed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What are the credit requirements?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What are the creidt requirements?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Minimum credit for degree completion?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Minimum cerdit for degree completion?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Total credits for BTech?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Ttoal credits for BTech?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Total cr for BTech?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Credits per semester?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cr per semester?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Crdeits per semester?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Credit needed to pass each year",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Credit nedeed to pass each year",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Tell me credit policy",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Tell me credit ploicy",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What is the minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What is the minimum presence required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "what's the minimum presence required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "what's the minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Attendance percentage to pass?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Attednance percentage to pass?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "presence percentage to pass?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Attendance rules in college",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "presence rules in college",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Atetndance rules in college",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "How much attendance is required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "How much presence is required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Attendance pass criteria",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "presence pass criteria",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Attendance pass criterai",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Minimum attendance percentage for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Minimum attendance percentage for exmas",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Minimum presence percentage for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Explain attendance requirement",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Explain attendnace requirement",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Explain presence requirement",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Who is HOD of CSE?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Department contact for ECE",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Department cnotact for ECE",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Department info for ECE",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "dept contact for ECE",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Email of mechanical department",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Email of mechanical dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Email of mechanical depratment",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Email of mechanical branch",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Phone of civil department",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Phone of civil branch",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Phone of civil dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Phnoe of civil department",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Head of department for electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Head of depratment for electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Head of branch for electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Office location for biotech department",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Office location for biotech dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Office location for biotech branch",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Office locaiton for biotech department",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Can I get contact details of computer science engineering?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Can I get contact detaisl of computer science engineering?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Can I get details details of computer science engineering?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Who is the department head of ECE?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Who is the departmetn head of ECE?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Who is the dept head of ECE?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Who is the branch head of ECE?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "How do I apply for hostel?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Can you explain scholarship process?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "explain scholarship process?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Can you explian scholarship process?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Where can I pay tuition fees online?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Where can I pay tiution fees online?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What clubs are active this semester?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What clubs are active this term?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What clusb are active this semester?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "What clubs are active this sem?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "How to get migration certificate?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "How to get migrtaion certificate?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  },
+  {
+    "query": "Placement statistics for last year?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Placement statitsics for last year?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    },
+    "augmented": true
+  }
+]

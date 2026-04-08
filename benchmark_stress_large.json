@@ -1,0 +1,6580 @@
+[
+  {
+    "query": "is tomororw holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credtis to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class sched for bt sem 5",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "crdeit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fianl exam ce sem 6 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "creidts per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table me sem 7 thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hosetl",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min cerdits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min crdeits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ece sem 4 fridya",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 4",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendnace percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class scehd for ee sem 5",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "atetndance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-08-15 a holida?y",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee sem 6 shced pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many creidts are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clusb active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched biotech sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "bt dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is toomrrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cse sem 7 shced pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fianl exam ce sem 1 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-08-15 a hloiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are eaxms for ee sem 5?",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credtis are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechaniacl",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for cse sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "bt sem 8 scehd pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for cse sem 6",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "attenadnce criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clolege closed on 2026-01-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam me sem 1 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "time table ee sem 4 friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 4",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched electrical sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "mid sem exam date for me sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "end sem sched computer science sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "what is the timteable for cse sem 1?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-12-25 a hoilday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ce sem 2?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for civil sem 7 on wednesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 7",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiady on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hosetl",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for bt sem 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam ee sem 1 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "mid sem exam date for me sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "is 2026-12-25 a holidya?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college colsed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class sched for me sem 4",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locatoin of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for ee sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exmas for bt sem 5?",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece sem 3 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for ee sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exams for me sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for electronics sem 8 on thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "pohne for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "creidts per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btceh",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of cse?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-01-26",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ce sem 6 monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 6",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office loaction of civil",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for bt sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "when are eaxms for cse sem 6?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to psas?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holdiay details for 2026-01-01",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuitino fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for cse sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuitino fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for ee dept",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs atcive this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit reqiurements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-12-25 a holida?y",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pas?s",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for computer science sem 6 on friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 6",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for dergee",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam tiemtable for ee sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-122-5 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-01-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of biotehc dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fianl exam me sem 5 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "eamil of civil dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday deatils for 2026-08-15",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table me sem 5 thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 5",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for me sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for me dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phnoe for ee dept",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuiiton fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phoen for ece dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credtis are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percenatge to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ce sem 2 monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table bt sem 2 frdiay",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are eaxms for me sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phnoe for bt dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ece sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "exam tiemtable for ce sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetalbe for ee sem 7?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched computer sceince sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "ce sem 2 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the tmietable for bt sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem scehd electrical sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "phone for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-01-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "creidts per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clasess for electronics sem 8 on friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for me sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cerdits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phoen for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for bt sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time tbale me sem 2 monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-01-01 a hloiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomrorow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched mechanical sem 7",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "attendance pecrentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement sttas last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office lcoation of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timteable for bt sem 2?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locatoin of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for mechanical sem 2 on wednesady",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credist to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomororw holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetabel for bt sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ee sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class sched for bt sem 4",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam tmietable for ece sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for dgeree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of computer science",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 202-610-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for ce sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migratino certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-122-5 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of cse?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for dergee",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class schde for cse sem 1",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "offiec location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show calss sched for ce sem 3",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-10-02 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scohlarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ee sem 2?",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of bt?",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for me dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteira pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ce sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for cse sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "totla credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship prcoess please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship proecss please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for bt sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "show class scehd for ece sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exasm for ce sem 5?",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locatino of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min creidts to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched mechanical sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ee sem 6 wendesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "finla exam ee sem 8 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "is 2026-10-02 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closde on 2026-01-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ee sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ee sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "end sem sched bitoech sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total credist for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "totla credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locaiton of electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee sem 3 schde pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow hloiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow hloiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tutiion fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me sem 2 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ece sem 2 mnoday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exams for cse sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept cotnact details",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-01-01 a holidya?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement sttas last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of civil dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attednnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of computer scienec",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attenndce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of electronics dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show clsas sched for bt sem 5",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetalbe for bt sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs actvie this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for cse sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ece sem 8?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept cnotact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class sched for ce sem 3",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of me?",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of electrical dept",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ce sem 2 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-01-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentgae to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ofifce location of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to appyl hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for me sem 6",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-12-25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched mechanical sem 7",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ee sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "classes for electrical sem 1 on monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credtis per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rulse for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-01-01",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phoen for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "pohne for ece dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept contact detials",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locaiton of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendanec criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of biotech dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-01-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table bt sem 4 thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credtis per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-12-25",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for electronics sem 5 on tuesady",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min cerdits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendnace percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ee sem 4 tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 4",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee pamyent link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for biotech sem 2 on monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendanec percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of mechanical dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class schde for cse sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timeatble for ece sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attenndce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class shced for cse sem 2",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for electrical sem 8 on tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrwo holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table cse sem 7 wedensday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requiremetns for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exams for ee sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "emial of mechanical dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of computer scienec dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-0-126 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attnedance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-01-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam cse sem 1 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "pohne for ee dept",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for cse dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept contatc details",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of biotech dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2206-01-26",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs atcive this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ece sem 4?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ce sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "mgiration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched boitech sem 7",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min crdeits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendcne req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for electronics sem 1 on friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 1",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem schde biotech sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "eamil of computer science dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 20260-8-15",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "bt dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship proecss please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much atetndnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-12-25 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2206-01-01 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tiution fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ce sem 4 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ee sem 2 thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time tabel me sem 7 friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2062-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for cse sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "migration certiifcate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cse sem 6 scehd pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ece sem 5 friday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timeatble for me sem 7?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-08-15 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate porcess",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class shced for bt sem 7",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept contact detalis",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentaeg to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min crdeits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched mechanicla sem 6",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "bt dept contact detials",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of me?",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fianl exam ece sem 7 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total creidts for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 20260-1-01",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched computer science sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "holiday on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fianl exam ee sem 6 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office locatino of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ee sem 6 thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "pohne for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of electronics",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exmas for bt sem 8?",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship proecss please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table bt sem 7 firday",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 7",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of civil",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate procses",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance ruels for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship porcess please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ce sem 4 wednesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem schde biotech sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for ece dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched biotech sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "phone for me dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-01-26 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table ece sem 1 wedensday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 1",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-12-25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-12-25",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched computer scienec sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "office location of bioetch",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam ee sem 2 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "is tmoorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class sched for ee sem 6",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept cnotact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate procses",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of cviil",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college clsoed on 2026-01-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-0-101 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow hloiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-12-25 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for cse sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phnoe for ece dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendacne criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate prcoess",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of ce?",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "atetndance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance percentgae to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time talbe ece sem 5 monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "creidts per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min crdeits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for electronics sem 2 on thursdya",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table cse sem 3 tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "eamil of civil dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance reqiured?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 2026-08-15 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exasm",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-0-126",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "bt dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched civil sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of electronics",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of biotech dept",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "me dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "atetndance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min creidts to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetalbe for ce sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuiiton fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetalbe for ece sem 1?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "email of computer science dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "finla exam cse sem 4 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "classes for biotech sem 2 on tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 2",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam bt sem 8 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "classes for biotech sem 6 on tuedsay",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 6",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-12-25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "fnial exam cse sem 6 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "ece dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rules for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam cse sem 5 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of me?",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of biotech",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for bt sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ece sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "exam tiemtable for bt sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timetable for ece sem 2?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-01-01?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credtis per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attnedance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ce sem 5 shced pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are eaxms for me sem 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetbale for me sem 7",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class scehd for cse sem 5",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance reqiured?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when are exams for ee sem 8?",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem sched electronics sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "office location of mechanical",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance cirteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "totla credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tomorrow holdiay",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attenndce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ce dept contact details",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ce sem 8",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam cse sem 1 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "clbus active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-80-15",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attenndce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attenadnce criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for cse sem 2",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "when are eaxms for ece sem 5?",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "finla exam ece sem 3 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "show class sched for ece sem 1",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attednance percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-12-25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timetable for me sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece sem 3 sched pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ee dept contact detials",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "culbs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum atetndance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday details for 2026-12-25",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closde on 2026-10-02?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam timeatble for ee sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for civli sem 2 on tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "end sem schde civil sem 7",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "total credits for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece dept cnotact details",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the timteable for me sem 7?",
+    "intent": "timetable",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min creidts to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table bt sem 6 tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 6",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show class schde for bt sem 5",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credist per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phoen for cse dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "plaecment stats last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-01-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how to apply hostel",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attnedance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phoen for me dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of ece?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam ece sem 2 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "placement satts last year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is 202-610-02 a holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mid sem exam date for ce sem 5",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "holiday on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what is the tiemtable for ce sem 7?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "clubs active this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday on 2026-10-0?2",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-10-02",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attenadnce percentage to pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "classes for biotech sem 7 on fridya",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 7",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "phone for ce dept",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece sem 4 shced pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "hoilday details for 2026-08-15",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship proecss please",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 202-601-26?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday detalis for 2026-08-15",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tuition fee pamyent link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "who is hod of me?",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many credits are needed to pass?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit requirements for degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  }
+]

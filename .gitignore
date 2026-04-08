@@ -30,7 +30,13 @@ Thumbs.db
 # Logs
 *.log
 
-# Documentation files to exclude
-GITHUB_SETUP.md
-QUICKSTART.md
-LLM_EXPLAINED.md
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Large generated splits (optional — regenerate with prepare_real_intent_splits.py)
+# data_splits_real/
+
+# Optional: do not commit trained models if you prefer CI to train
+# models/*.pkl

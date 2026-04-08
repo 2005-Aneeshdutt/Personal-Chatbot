@@ -1,0 +1,4006 @@
+[
+  {
+    "query": "I have double-checked all of my recipient details but for some reason all of my transfers keep getting declined. I have no clue as to why.",
+    "intent": "27"
+  },
+  {
+    "query": "I just bought an item and would like to stop payment, is this possible?  The item has not been received yet.",
+    "intent": "52"
+  },
+  {
+    "query": "I haven't received my cash yet.",
+    "intent": "75"
+  },
+  {
+    "query": "Where can I get your exchange rates from?",
+    "intent": "32"
+  },
+  {
+    "query": "I've already sent the money out and still have not received money in my account.",
+    "intent": "6"
+  },
+  {
+    "query": "Can anyone else top-up for me?",
+    "intent": "62"
+  },
+  {
+    "query": "Can I withdraw from any ATM?",
+    "intent": "3"
+  },
+  {
+    "query": "Why can't I use my card?",
+    "intent": "14"
+  },
+  {
+    "query": "Can I use a cheque to top up my account",
+    "intent": "58"
+  },
+  {
+    "query": "I have not received my pin yet",
+    "intent": "38"
+  },
+  {
+    "query": "Some cash I didn't get shows in my app",
+    "intent": "20"
+  },
+  {
+    "query": "What is the handling fee for transfer?",
+    "intent": "56"
+  },
+  {
+    "query": "I'm trying to make a bank transfer but It's not going through. Could there not be enough funds to transfer or something? Have I done it too many times?",
+    "intent": "35"
+  },
+  {
+    "query": "My card isn't here yet.",
+    "intent": "11"
+  },
+  {
+    "query": "I completed I transfer the day before yesterday in this country. The transfer still is not complete. I've checked on the account number multiple times to make sure that it is the right one. Can you check to see what's going on with this?",
+    "intent": "66"
+  },
+  {
+    "query": "Can I have a tangible form of my virtual card.",
+    "intent": "43"
+  },
+  {
+    "query": "You can activate your card in a few seconds by going to account, hitting activate, and just following the directions.",
+    "intent": "0"
+  },
+  {
+    "query": "I want to get a new card before my current one expires, how much will it cost me and how long will it take to get here.",
+    "intent": "9"
+  },
+  {
+    "query": "Why hasn't my card arrived yet?",
+    "intent": "11"
+  },
+  {
+    "query": "How can I go about transferring money to my account?",
+    "intent": "65"
+  },
+  {
+    "query": "Can you tell me what I need to do to have my pin changed?",
+    "intent": "21"
+  },
+  {
+    "query": "I could not get the top-up to go through",
+    "intent": "59"
+  },
+  {
+    "query": "I found a charge on my debit that I did not make.",
+    "intent": "28"
+  },
+  {
+    "query": "I did a payment but it was reverted by the app",
+    "intent": "53"
+  },
+  {
+    "query": "What are age requirements for opening an account?",
+    "intent": "1"
+  },
+  {
+    "query": "Where can I find the auto-top up feature?",
+    "intent": "4"
+  },
+  {
+    "query": "What should I do when my card reaches its expiry date?",
+    "intent": "9"
+  },
+  {
+    "query": "When does my transfer from the US arrive in my account?",
+    "intent": "67"
+  },
+  {
+    "query": "Can I quickly send a transfer from China?  How long will it take?",
+    "intent": "67"
+  },
+  {
+    "query": "I sent money for my rent to my landlord but she is claiming it hasn't arrived in her account  Can you trace the transfer I made to make sure it arrived so I can provide proof I sent it and that it has been deposited?",
+    "intent": "66"
+  },
+  {
+    "query": "Why hasn't the app verified my identity?",
+    "intent": "68"
+  },
+  {
+    "query": "why are all my identity details required",
+    "intent": "74"
+  },
+  {
+    "query": "Where can money withdrawals be made?",
+    "intent": "3"
+  },
+  {
+    "query": "What is this random charge of one pound doing on my account?",
+    "intent": "34"
+  },
+  {
+    "query": "How long will it take for my cash withdrawal to no longer show as pending?",
+    "intent": "46"
+  },
+  {
+    "query": "How much longer is it going to take to get my new card?",
+    "intent": "11"
+  },
+  {
+    "query": "It has been forever ago that I made an order online. The product simply is not coming. Just give me back my money because I'm not paying these people.",
+    "intent": "52"
+  },
+  {
+    "query": "The machine didn't work earlier when I went to get money out and now my account says transaction in progress.Why?",
+    "intent": "46"
+  },
+  {
+    "query": "I can't remember my app code, can you reset it?",
+    "intent": "44"
+  },
+  {
+    "query": "I have made a payment by my card, and its still pending since a long time. Could you please tell me when it will process.",
+    "intent": "45"
+  },
+  {
+    "query": "What do I do if my Google pay top up isn't working?",
+    "intent": "2"
+  },
+  {
+    "query": "I tried to withdraw cash from your ATM but my transaction was cancelled.",
+    "intent": "26"
+  },
+  {
+    "query": "I want to top up my account with a cheque",
+    "intent": "58"
+  },
+  {
+    "query": "What is the process for getting an actual physical card?",
+    "intent": "43"
+  },
+  {
+    "query": "I forgot my PIN number.",
+    "intent": "49"
+  },
+  {
+    "query": "What fiat currencies are supported?",
+    "intent": "36"
+  },
+  {
+    "query": "My beneficiary is not allowed?  Why?",
+    "intent": "7"
+  },
+  {
+    "query": "I am looking for my top-up verification code and cannot find it.",
+    "intent": "71"
+  },
+  {
+    "query": "I have a transaction showing up more than once.",
+    "intent": "63"
+  },
+  {
+    "query": "How do you top up with a cheque?",
+    "intent": "58"
+  },
+  {
+    "query": "Will I be charged an extra fee if I need to exchange currency?",
+    "intent": "31"
+  },
+  {
+    "query": "Is there a transaction limit on a disposable card?",
+    "intent": "29"
+  },
+  {
+    "query": "How do I find my PIN number?",
+    "intent": "38"
+  },
+  {
+    "query": "I'll send a check to top up my account",
+    "intent": "58"
+  },
+  {
+    "query": "I transferred money, why was charged for an extra fee?",
+    "intent": "64"
+  },
+  {
+    "query": "I want to link to my card card with you, how?",
+    "intent": "13"
+  },
+  {
+    "query": "I have tried a couple of times to make a purchase and my card keeps getting declined. Why do you keep denying my transfers? I have already tried a couple of times and it's not working.",
+    "intent": "27"
+  },
+  {
+    "query": "There is a withdrawal on my account that I don't remember initiating.",
+    "intent": "20"
+  },
+  {
+    "query": "How do I change my name after marriage",
+    "intent": "30"
+  },
+  {
+    "query": "Could you explain your rules for ATM fees?",
+    "intent": "19"
+  },
+  {
+    "query": "Are refunds allowed for certain items.",
+    "intent": "52"
+  },
+  {
+    "query": "Why was I charged a fee for my withdrawal?",
+    "intent": "19"
+  },
+  {
+    "query": "Why is the exchange rate wrong for my cash withdrawal?",
+    "intent": "76"
+  },
+  {
+    "query": "How can I look at where my available cash is coming from?",
+    "intent": "70"
+  },
+  {
+    "query": "Why is a transaction still pending?",
+    "intent": "46"
+  },
+  {
+    "query": "I lost my phone, what should I do?",
+    "intent": "42"
+  },
+  {
+    "query": "The wrong account was used during a transaction.",
+    "intent": "8"
+  },
+  {
+    "query": "What's the time frame normally for a UK account transfer? I just made one and it's not showing up anywhere. I want to be sure that everything is good.",
+    "intent": "5"
+  },
+  {
+    "query": "Why has my deposit in the ATM not cleared yet?",
+    "intent": "46"
+  },
+  {
+    "query": "My top-up never worked",
+    "intent": "59"
+  },
+  {
+    "query": "What do I do if I think someone has used my card without permission? I can see a few transactions I don't recognize.",
+    "intent": "22"
+  },
+  {
+    "query": "An ATM swallowed my credit card!",
+    "intent": "18"
+  },
+  {
+    "query": "Show me how to activate my card",
+    "intent": "0"
+  },
+  {
+    "query": "What do I do if someone used my card without my permission?",
+    "intent": "22"
+  },
+  {
+    "query": "Please, tell me why I can't have the funds I deposited a week ago? I need the money now.",
+    "intent": "6"
+  },
+  {
+    "query": "How soon do cards arrive after I order them?",
+    "intent": "12"
+  },
+  {
+    "query": "Help!  In the app there is a direct debit that I don't remember.",
+    "intent": "28"
+  },
+  {
+    "query": "Why wouldn't the ATM give me my money?",
+    "intent": "26"
+  },
+  {
+    "query": "I paid with my card and ended up being charged a fee.",
+    "intent": "15"
+  },
+  {
+    "query": "What are the time frames for the money to be available in my account?",
+    "intent": "67"
+  },
+  {
+    "query": "What is the procedure to transfer money to my account?",
+    "intent": "65"
+  },
+  {
+    "query": "How much is it to send out additional cards?",
+    "intent": "39"
+  },
+  {
+    "query": "Can I have money of different country of origin.",
+    "intent": "36"
+  },
+  {
+    "query": "The other bank confirmed a transfer I made, but this account is not reflecting it yet.",
+    "intent": "5"
+  },
+  {
+    "query": "What is the maximum number of transactions I can do with a disposable card?",
+    "intent": "29"
+  },
+  {
+    "query": "Is there an allowance on cards?",
+    "intent": "15"
+  },
+  {
+    "query": "Explain why my card payment wouldn't go through.",
+    "intent": "25"
+  },
+  {
+    "query": "Where are you present globally?",
+    "intent": "24"
+  },
+  {
+    "query": "I am 16 and just started working at McDonalds can I deposit my checks at your bank?",
+    "intent": "1"
+  },
+  {
+    "query": "There is  a charge I don't recognize.",
+    "intent": "16"
+  },
+  {
+    "query": "Where can I locate my card PIN?",
+    "intent": "38"
+  },
+  {
+    "query": "I seem to be unable to make any transactions.",
+    "intent": "14"
+  },
+  {
+    "query": "Im not sure if a seller is giving me my money back! I asked them to refund my money for the item but It's been a week now and still nothing has been given back to me. Can you resolve this for me?",
+    "intent": "51"
+  },
+  {
+    "query": "I transferred some funds but I don't see it",
+    "intent": "5"
+  },
+  {
+    "query": "Why is my transfer taking so long. I thought it was supposed to only take 1 day if I made a transfer to someone. Can you wee what went wrong?",
+    "intent": "66"
+  },
+  {
+    "query": "I am not able to purchase anything online! I have been using my card on multiple sites over a period of two weeks and none of the payments have gone through. Why is this happening?",
+    "intent": "53"
+  },
+  {
+    "query": "I did a transfer earlier but see that it failed to go through.",
+    "intent": "35"
+  },
+  {
+    "query": "What is the return policy?",
+    "intent": "52"
+  },
+  {
+    "query": "I bought something abroad and the exchange rate applied is wrong",
+    "intent": "17"
+  },
+  {
+    "query": "It appears as though my card payment was duplicated. I paid at the store earlier today. The first time it was declined and the second time it worked. The app is still showing one of the payments to be pending. Please take one of these off because clearly the first was declined and is not correct.",
+    "intent": "63"
+  },
+  {
+    "query": "What currencies can be used for top up?",
+    "intent": "54"
+  },
+  {
+    "query": "Can I get an auto Top-up?",
+    "intent": "4"
+  },
+  {
+    "query": "What form of payments can I use for topping up?",
+    "intent": "58"
+  },
+  {
+    "query": "Can I still use my account without verifying my identity?",
+    "intent": "74"
+  },
+  {
+    "query": "Could you tell me why my top up isn't showing in my wallet?",
+    "intent": "62"
+  },
+  {
+    "query": "I am calling because the ATM didn't give me the right amount of cash, but my app shows the actual amount I wanted to withdraw. What should I do to get my money back?",
+    "intent": "75"
+  },
+  {
+    "query": "I don't think I made this transaction on my statement",
+    "intent": "16"
+  },
+  {
+    "query": "I paid my rent into the wrong account, could you please pay it into the right account, it needs to be done by tomorrow.",
+    "intent": "8"
+  },
+  {
+    "query": "Help! When will the card arrive at my home?",
+    "intent": "12"
+  },
+  {
+    "query": "How are the exchange rates determined?",
+    "intent": "32"
+  },
+  {
+    "query": "How do I go about exchanging currencies with this app?",
+    "intent": "33"
+  },
+  {
+    "query": "can you express my card to me?",
+    "intent": "12"
+  },
+  {
+    "query": "I've forgotten my app passcode completely.",
+    "intent": "44"
+  },
+  {
+    "query": "How can I check to see where my funds come from?",
+    "intent": "70"
+  },
+  {
+    "query": "Is it possible to top-up automatically?",
+    "intent": "4"
+  },
+  {
+    "query": "The App shows a fraudulent payment made on my account.",
+    "intent": "16"
+  },
+  {
+    "query": "Why was there a fee when I pulled cash?",
+    "intent": "19"
+  },
+  {
+    "query": "Who do I talk to about the ATM swallowing my card?",
+    "intent": "18"
+  },
+  {
+    "query": "The top-up I ordered didn't process.",
+    "intent": "59"
+  },
+  {
+    "query": "Do I need to order a new card before it expires?",
+    "intent": "9"
+  },
+  {
+    "query": "Why isn't my money from a check deposit showing?",
+    "intent": "6"
+  },
+  {
+    "query": "I would like to get both Mastercard and Visa card from you if that's possible.",
+    "intent": "73"
+  },
+  {
+    "query": "I have an unknown direct debit payment on my account",
+    "intent": "28"
+  },
+  {
+    "query": "How do I cancel a transaction?",
+    "intent": "8"
+  },
+  {
+    "query": "Is there a location where I can change my PIN?",
+    "intent": "21"
+  },
+  {
+    "query": "How do I order a replacement for stolen card?",
+    "intent": "22"
+  },
+  {
+    "query": "I tired but an unable to activate my card.",
+    "intent": "0"
+  },
+  {
+    "query": "I want to get a Visa card",
+    "intent": "73"
+  },
+  {
+    "query": "How long do transfers from Europe take?",
+    "intent": "67"
+  },
+  {
+    "query": "When will my top-up be completed?",
+    "intent": "47"
+  },
+  {
+    "query": "Why did you charge me extra?",
+    "intent": "34"
+  },
+  {
+    "query": "I see a direct debit that I didn't authorize",
+    "intent": "28"
+  },
+  {
+    "query": "What is the max top-up?",
+    "intent": "60"
+  },
+  {
+    "query": "It does not appear that my message went through.",
+    "intent": "59"
+  },
+  {
+    "query": "Is there a fee to top up a US card using a debit or credit card?",
+    "intent": "57"
+  },
+  {
+    "query": "What are the requirements to open an account for a minor?",
+    "intent": "1"
+  },
+  {
+    "query": "How do you calculate exchange rates?",
+    "intent": "32"
+  },
+  {
+    "query": "I believe that my transfer hasn't gone through.",
+    "intent": "35"
+  },
+  {
+    "query": "Why did I get charged when getting cash?",
+    "intent": "19"
+  },
+  {
+    "query": "Are there any top-up limits involved?",
+    "intent": "60"
+  },
+  {
+    "query": "I cannot use my PIN.",
+    "intent": "49"
+  },
+  {
+    "query": "I was charged more than once for a card payment I made.",
+    "intent": "63"
+  },
+  {
+    "query": "I see cash in my app but I did not get it.",
+    "intent": "20"
+  },
+  {
+    "query": "Do you charge extra for topping up with a debit or credit card?",
+    "intent": "57"
+  },
+  {
+    "query": "Would I be able to open an account for my daughter?",
+    "intent": "1"
+  },
+  {
+    "query": "Am I able to have a card sent to China?",
+    "intent": "9"
+  },
+  {
+    "query": "Is it possible to get a real card?",
+    "intent": "43"
+  },
+  {
+    "query": "Problem with my top up going through",
+    "intent": "47"
+  },
+  {
+    "query": "I found my card. How can I put it into my app?",
+    "intent": "13"
+  },
+  {
+    "query": "I should have a refund in my statement but I can't see it",
+    "intent": "51"
+  },
+  {
+    "query": "I was charged multiple times for one purchase",
+    "intent": "63"
+  },
+  {
+    "query": "Is it free to transfer money or is there a fee?",
+    "intent": "64"
+  },
+  {
+    "query": "why is there a fee for a payment on my card?",
+    "intent": "15"
+  },
+  {
+    "query": "How do I go about verifying my identity?",
+    "intent": "69"
+  },
+  {
+    "query": "I have received my American express in apple play, looks like top up has an issue, please help?",
+    "intent": "2"
+  },
+  {
+    "query": "Please tell me how I can get a virtual card.",
+    "intent": "40"
+  },
+  {
+    "query": "Can I get money in my home currency at an ATM? I'm on vacation and don't have cash with me. This is cause for a bit of concern. Is it possible to withdraw here without additional cost?",
+    "intent": "76"
+  },
+  {
+    "query": "My identity hasn't been verified.  Can I use my account?",
+    "intent": "74"
+  },
+  {
+    "query": "I tried to top up, but the funds show up as pending. I thought it was instant?",
+    "intent": "47"
+  },
+  {
+    "query": "Do you allow exchanges of EUR?",
+    "intent": "36"
+  },
+  {
+    "query": "Will my card be here soon?",
+    "intent": "12"
+  },
+  {
+    "query": "How do I link the new card that I just got from you guys?",
+    "intent": "13"
+  },
+  {
+    "query": "What kind of costs are involved for exchanging currency?",
+    "intent": "31"
+  },
+  {
+    "query": "Tell me why my transfer is declined.",
+    "intent": "27"
+  },
+  {
+    "query": "Are you sure this is the interbank exchange rate? This rate is really bad.",
+    "intent": "17"
+  },
+  {
+    "query": "Is there a charge for getting my money?",
+    "intent": "56"
+  },
+  {
+    "query": "How long will a cash withdrawal be pending?",
+    "intent": "46"
+  },
+  {
+    "query": "I need to get a card, but I live in the US.",
+    "intent": "24"
+  },
+  {
+    "query": "My details need to be changed, how can I do so?",
+    "intent": "30"
+  },
+  {
+    "query": "What are the steps to finishing up with this account?",
+    "intent": "55"
+  },
+  {
+    "query": "I think a payment I made with a card was cancelled.",
+    "intent": "53"
+  },
+  {
+    "query": "A receiver made me aware that they did not receive the full transfer that I made. The amount was showing to be a bit less. I now have to make a second transfer just to make up the difference. Can you reach out and let me know what's going on?",
+    "intent": "64"
+  },
+  {
+    "query": "I want to block my card or deactivate it or something, it's been stolen and I don't want it misused. I want this handled right away.",
+    "intent": "41"
+  },
+  {
+    "query": "Why did I get a $1 extra fee on the statement?",
+    "intent": "34"
+  },
+  {
+    "query": "I'm being asked for a verification code. Where do I find it?",
+    "intent": "71"
+  },
+  {
+    "query": "How long is the wait for a money transfer to post?",
+    "intent": "48"
+  },
+  {
+    "query": "I don't need to transfer anymore and I want to cancel it.",
+    "intent": "8"
+  },
+  {
+    "query": "I just saw a fee on my account. When do these get charged?",
+    "intent": "15"
+  },
+  {
+    "query": "How do I go about cancelling a transaction?",
+    "intent": "8"
+  },
+  {
+    "query": "What should I do to top up using my Apple Watch?",
+    "intent": "2"
+  },
+  {
+    "query": "Where can I pay with my card?",
+    "intent": "10"
+  },
+  {
+    "query": "What is the appropriate age for my child to be able to open an account?",
+    "intent": "1"
+  },
+  {
+    "query": "Can I update my details?",
+    "intent": "30"
+  },
+  {
+    "query": "I was charged twice.",
+    "intent": "63"
+  },
+  {
+    "query": "Did  my transfer fail?",
+    "intent": "35"
+  },
+  {
+    "query": "Why is the payment showing as pending from things I bought this morning?",
+    "intent": "45"
+  },
+  {
+    "query": "I've got a repeated tranasaction on my card.",
+    "intent": "63"
+  },
+  {
+    "query": "The exchange rate is incorrect for something I bought",
+    "intent": "17"
+  },
+  {
+    "query": "What are the steps for getting money from a friend?",
+    "intent": "50"
+  },
+  {
+    "query": "What is the function of the disposable cards?",
+    "intent": "37"
+  },
+  {
+    "query": "can i get a card if i live in the US?",
+    "intent": "24"
+  },
+  {
+    "query": "Is there an issue with my card payment as it has not gone through.",
+    "intent": "25"
+  },
+  {
+    "query": "i need a refund right away but the funds aren't available in my account",
+    "intent": "51"
+  },
+  {
+    "query": "Why can't I top up by cheque?",
+    "intent": "58"
+  },
+  {
+    "query": "I entered the pin incorrectly too many times and now it is blocked. Can you help?",
+    "intent": "49"
+  },
+  {
+    "query": "I asked for a certain amount of money from the ATM, but it gave me a different amount. Less than what I asked for.",
+    "intent": "75"
+  },
+  {
+    "query": "I sent some money and the account hasn't recived the transfer I made.",
+    "intent": "66"
+  },
+  {
+    "query": "My card was declined",
+    "intent": "25"
+  },
+  {
+    "query": "I live in the UK. Can I get a card?",
+    "intent": "24"
+  },
+  {
+    "query": "There was an extra fee when I paid with the card.",
+    "intent": "15"
+  },
+  {
+    "query": "What locations can I get money from?",
+    "intent": "3"
+  },
+  {
+    "query": "After I transferred money the balance remained the same.",
+    "intent": "5"
+  },
+  {
+    "query": "Is there a cash withdrawal fee? Because I just got charged?",
+    "intent": "19"
+  },
+  {
+    "query": "I see a direct debit transaction that I didn't make.",
+    "intent": "28"
+  },
+  {
+    "query": "Was there a problem with topping up?",
+    "intent": "59"
+  },
+  {
+    "query": "How long does a transfer to another country normally take? I check over and over again and see that my transfer is still pending. It's 2018, nothing should take this long. I have confirmed my account information, so there is no error. What is the hold up?",
+    "intent": "48"
+  },
+  {
+    "query": "My card was lost on vacation, I don't know where it is. Can you help me take care of this immediately?",
+    "intent": "41"
+  },
+  {
+    "query": "I think my phone was stolen. What can I do?",
+    "intent": "42"
+  },
+  {
+    "query": "Why was my transfer request decline?",
+    "intent": "27"
+  },
+  {
+    "query": "I noticed an extra pound charge?",
+    "intent": "34"
+  },
+  {
+    "query": "What are disposable virtual cards?",
+    "intent": "37"
+  },
+  {
+    "query": "When will my transfer come through?",
+    "intent": "5"
+  },
+  {
+    "query": "How long does it take for a new purchase to stop being considered pending?",
+    "intent": "45"
+  },
+  {
+    "query": "I transferred money and it didn't get there.",
+    "intent": "66"
+  },
+  {
+    "query": "lost card found, want to put it back in app",
+    "intent": "13"
+  },
+  {
+    "query": "Could you please recommend what I should do if my card keeps getting declined?  I planned to top-up today but I am unable to get it to work.  I need a fast solution to this problem.",
+    "intent": "59"
+  },
+  {
+    "query": "Visa and Mastercard can both be received from you?",
+    "intent": "73"
+  },
+  {
+    "query": "What steps do I need to take for the identity checking process?",
+    "intent": "69"
+  },
+  {
+    "query": "Is there a transaction limit for a disposable card?",
+    "intent": "29"
+  },
+  {
+    "query": "I need to change my address",
+    "intent": "30"
+  },
+  {
+    "query": "Can I get a physical card",
+    "intent": "43"
+  },
+  {
+    "query": "I made a payment with my card and it hasn't changed. How long do you think this will take?",
+    "intent": "45"
+  },
+  {
+    "query": "It didn't give me my cash",
+    "intent": "75"
+  },
+  {
+    "query": "There's a cash withdrawal I am certain I did not make",
+    "intent": "20"
+  },
+  {
+    "query": "I've lost my card. What can I do about that?",
+    "intent": "41"
+  },
+  {
+    "query": "My account was charged twice for one purchase",
+    "intent": "63"
+  },
+  {
+    "query": "I haven't received my transfer funds yet, where are they?",
+    "intent": "48"
+  },
+  {
+    "query": "Can you tell me what I need for identity validation?",
+    "intent": "69"
+  },
+  {
+    "query": "How much does each transfer cost?",
+    "intent": "56"
+  },
+  {
+    "query": "The amount of exchange was not correct for the item i bought.",
+    "intent": "17"
+  },
+  {
+    "query": "Can you tell me why a refund I'm owed is not showing on my statement?",
+    "intent": "51"
+  },
+  {
+    "query": "What is the greatest number of times that I can top-up?",
+    "intent": "60"
+  },
+  {
+    "query": "Why doesn't my passcode work?",
+    "intent": "44"
+  },
+  {
+    "query": "My payment shows that it is pending will I be charged more money?",
+    "intent": "48"
+  },
+  {
+    "query": "am i able to receive my salary this way?",
+    "intent": "50"
+  },
+  {
+    "query": "Will I receive a new card when mine expires?",
+    "intent": "9"
+  },
+  {
+    "query": "Why has my card payment not yet been applied to my account?",
+    "intent": "45"
+  },
+  {
+    "query": "What are the maximum amount you can do for auto top-up?",
+    "intent": "4"
+  },
+  {
+    "query": "Please tell me why I was charged additionally when I used the card.",
+    "intent": "15"
+  },
+  {
+    "query": "My money has disappeared. I had recently added money in, and saw it was there and went through. Now it's gone. What is happening?",
+    "intent": "61"
+  },
+  {
+    "query": "I want to know about your refund policy.",
+    "intent": "52"
+  },
+  {
+    "query": "Can I have a spare card for this account please?",
+    "intent": "39"
+  },
+  {
+    "query": "The app failed to verify me.",
+    "intent": "68"
+  },
+  {
+    "query": "Can I get a new card even though I am in China?",
+    "intent": "9"
+  },
+  {
+    "query": "My card don't work.",
+    "intent": "14"
+  },
+  {
+    "query": "Can i top up by card?",
+    "intent": "62"
+  },
+  {
+    "query": "There is a direct debit transaction that I did not authorize",
+    "intent": "28"
+  },
+  {
+    "query": "I accidentally put in the wrong pin too many times and now I need to unblock it. Can you assist with this?",
+    "intent": "49"
+  },
+  {
+    "query": "If I have a physical card can I link it?",
+    "intent": "13"
+  },
+  {
+    "query": "I made an online purchase and the order has not shown up. Give me my money back.",
+    "intent": "52"
+  },
+  {
+    "query": "I deposited cash into my account and I'm having trouble seeing it on my account.",
+    "intent": "6"
+  },
+  {
+    "query": "What foreign exchange rate will I get?",
+    "intent": "32"
+  },
+  {
+    "query": "How long does it take for a top up to be approved?",
+    "intent": "47"
+  },
+  {
+    "query": "\u20ac1 was in my statement as an extra fee.",
+    "intent": "34"
+  },
+  {
+    "query": "I'm worried that my card has been compromised because I see a payment that I didn't make.",
+    "intent": "16"
+  },
+  {
+    "query": "Why is top-up verified?",
+    "intent": "71"
+  },
+  {
+    "query": "When will my top up be approved?",
+    "intent": "47"
+  },
+  {
+    "query": "My transfer didn't work how come?",
+    "intent": "35"
+  },
+  {
+    "query": "can i get a card if I live in the usa?",
+    "intent": "24"
+  },
+  {
+    "query": "What is the function of the identity check",
+    "intent": "74"
+  },
+  {
+    "query": "How long does it take for a top-up?",
+    "intent": "47"
+  },
+  {
+    "query": "Can I use my card at an ATM?",
+    "intent": "3"
+  },
+  {
+    "query": "Why was one of my transfers declined?",
+    "intent": "27"
+  },
+  {
+    "query": "When can I expect the transfer to be complete?",
+    "intent": "67"
+  },
+  {
+    "query": "How come my money hasn't shown up yet?",
+    "intent": "66"
+  },
+  {
+    "query": "Where do I activate my card?",
+    "intent": "0"
+  },
+  {
+    "query": "I attempted to top up using my card, but now the money just disappeared?",
+    "intent": "62"
+  },
+  {
+    "query": "I've been waiting for a pending transfer to go through for a while now, and don't see any reason why I've been waiting this long.  I know that I have the correct account details, so that isn't the problem.",
+    "intent": "48"
+  },
+  {
+    "query": "Can you tell me your exchange rates?",
+    "intent": "32"
+  },
+  {
+    "query": "what is this charge on my card?",
+    "intent": "28"
+  },
+  {
+    "query": "How can I get disposable virtual cards?",
+    "intent": "37"
+  },
+  {
+    "query": "I forgot my password to get into the app!",
+    "intent": "44"
+  },
+  {
+    "query": "Is it ok for a friend to send me money?",
+    "intent": "50"
+  },
+  {
+    "query": "What are these fees i am paying?",
+    "intent": "15"
+  },
+  {
+    "query": "I did a topup successfully but its not showing in balance. I think there is some problem in system.",
+    "intent": "61"
+  },
+  {
+    "query": "What commission do you take for currency exchage?",
+    "intent": "31"
+  },
+  {
+    "query": "I added money to the card but the transaction didn't go through",
+    "intent": "47"
+  },
+  {
+    "query": "Will my money be of equal value when I travel abroad?",
+    "intent": "32"
+  },
+  {
+    "query": "I bought an item that I was charged a different exchange rate for.",
+    "intent": "17"
+  },
+  {
+    "query": "Do you know which businesses will accept my card?",
+    "intent": "10"
+  },
+  {
+    "query": "My top-up didn't work.",
+    "intent": "59"
+  },
+  {
+    "query": "Why am I charged a fee for withdrawing cash?",
+    "intent": "19"
+  },
+  {
+    "query": "I've just made a money transfer to the wrong account, I need to stop the money from being moved as it may be going to someone I don't know.  Please can you help?",
+    "intent": "8"
+  },
+  {
+    "query": "Can you tell me how to tell where my funds come from?",
+    "intent": "70"
+  },
+  {
+    "query": "I may need to exchange my USD for GBP, can your app do that?",
+    "intent": "33"
+  },
+  {
+    "query": "I want a new card",
+    "intent": "39"
+  },
+  {
+    "query": "What do I do?  The ATM took my card!",
+    "intent": "18"
+  },
+  {
+    "query": "Whats the process of tranfering money into an account?",
+    "intent": "65"
+  },
+  {
+    "query": "Please help my find out why there is an odd direct debit in my records.",
+    "intent": "28"
+  },
+  {
+    "query": "My phone was left behind.  Can I still use my card?",
+    "intent": "42"
+  },
+  {
+    "query": "In the app I see a direct debit that I don't recognize.",
+    "intent": "28"
+  },
+  {
+    "query": "Can I get information on topping up?",
+    "intent": "57"
+  },
+  {
+    "query": "My exchange rate is wrong when I get cash.",
+    "intent": "76"
+  },
+  {
+    "query": "Why was my top up cancelled?",
+    "intent": "61"
+  },
+  {
+    "query": "Why was my card declined?",
+    "intent": "25"
+  },
+  {
+    "query": "Give me back my money, I'm not paying the sellers. It has been a long time ago that I made an order and it just isn't coming.",
+    "intent": "52"
+  },
+  {
+    "query": "What do I do now that I can't use this card?",
+    "intent": "14"
+  },
+  {
+    "query": "Why hasn't my transaction arrived to my friend yet?",
+    "intent": "66"
+  },
+  {
+    "query": "How can I stop someone from using my card after I lost it yesterday.",
+    "intent": "42"
+  },
+  {
+    "query": "How recent do my documents need to be for verification?",
+    "intent": "69"
+  },
+  {
+    "query": "Please explain why my top-up didn't go through.",
+    "intent": "59"
+  },
+  {
+    "query": "Why didn't my transfer work?",
+    "intent": "35"
+  },
+  {
+    "query": "I deposited cash into my account, why do I not see it?",
+    "intent": "6"
+  },
+  {
+    "query": "The exchange rate for my withdrawal was wrong.",
+    "intent": "76"
+  },
+  {
+    "query": "How do I access the virtual card?",
+    "intent": "40"
+  },
+  {
+    "query": "Can somebody else top up my account?",
+    "intent": "62"
+  },
+  {
+    "query": "I was charged an extra pound for no reason. Why is that?",
+    "intent": "34"
+  },
+  {
+    "query": "How do I request a refund?",
+    "intent": "52"
+  },
+  {
+    "query": "Can turn my money into another currency?",
+    "intent": "33"
+  },
+  {
+    "query": "Exchange rate for my card payment is wrong",
+    "intent": "17"
+  },
+  {
+    "query": "I just got a new card how do I get it to start working?",
+    "intent": "0"
+  },
+  {
+    "query": "Is there a top-up fee if you add money in USD?",
+    "intent": "57"
+  },
+  {
+    "query": "Is it possible to get a physical card?",
+    "intent": "43"
+  },
+  {
+    "query": "A payment I didn't do shows in my app",
+    "intent": "16"
+  },
+  {
+    "query": "What do I do if my payment was reverted?",
+    "intent": "53"
+  },
+  {
+    "query": "Is there a way to get a virtual card?",
+    "intent": "40"
+  },
+  {
+    "query": "Which ATM's can I use to make a withdrawal?",
+    "intent": "3"
+  },
+  {
+    "query": "I would really like a physical card.",
+    "intent": "43"
+  },
+  {
+    "query": "Please help me delete this account.",
+    "intent": "55"
+  },
+  {
+    "query": "There seems to be a couple of payments listed in the app I know weren't made by me. Is there a possibility someone has access to my card? Can you find out what's going on?",
+    "intent": "16"
+  },
+  {
+    "query": "The app rejected my top up",
+    "intent": "59"
+  },
+  {
+    "query": "I was under the impression ATM cash withdrawals were free. Why was I suddenly charged for my most recent ATM transaction?",
+    "intent": "19"
+  },
+  {
+    "query": "What could the reason be that my payment card was declined?",
+    "intent": "25"
+  },
+  {
+    "query": "Why am I being charged to withdrawal money?",
+    "intent": "19"
+  },
+  {
+    "query": "I cannot tell what my top up currently is.",
+    "intent": "62"
+  },
+  {
+    "query": "I need to find out why my pending payment hasn't gone through.",
+    "intent": "45"
+  },
+  {
+    "query": "do i have to wait for a physical card before i get my pin",
+    "intent": "38"
+  },
+  {
+    "query": "What all is needed for the identity verification?",
+    "intent": "69"
+  },
+  {
+    "query": "Where in the app do I link a new card?",
+    "intent": "13"
+  },
+  {
+    "query": "Can I have my account add money automatically in certain intervals?",
+    "intent": "4"
+  },
+  {
+    "query": "When will my virtual card arrive?",
+    "intent": "40"
+  },
+  {
+    "query": "There is a record of payment I never submitted on the app.",
+    "intent": "16"
+  },
+  {
+    "query": "Where can I find the exchange rate for my transfer?",
+    "intent": "32"
+  },
+  {
+    "query": "I was trying to purchase some crypto and the app won't allow me to do it. What's the deal with this? I really wanted to complete the exchange.",
+    "intent": "7"
+  },
+  {
+    "query": "Can I use my American Express card with Apple Pay?",
+    "intent": "2"
+  },
+  {
+    "query": "Can you explain to me the way to verify my top up has gone through?",
+    "intent": "71"
+  },
+  {
+    "query": "I have a cash withdrawal that I don't recognize.",
+    "intent": "20"
+  },
+  {
+    "query": "Yesterday I topped up my card. Why didn't it complete as it still pending?",
+    "intent": "47"
+  },
+  {
+    "query": "I need to know what your exchange rates are.",
+    "intent": "32"
+  },
+  {
+    "query": "I can't get cash from the ATM!",
+    "intent": "26"
+  },
+  {
+    "query": "After I got my cash, I found out my exchange rate was wrong.",
+    "intent": "76"
+  },
+  {
+    "query": "The ATM keeps declining my Transaction . I tried two different ATMs already Would you please check if everything is okay with my account?",
+    "intent": "26"
+  },
+  {
+    "query": "Please tell me how to edit my personal details.",
+    "intent": "30"
+  },
+  {
+    "query": "I need a new card, my old card is expiring.",
+    "intent": "9"
+  },
+  {
+    "query": "What is this extra fee?",
+    "intent": "15"
+  },
+  {
+    "query": "Is currency exchange possible?",
+    "intent": "33"
+  },
+  {
+    "query": "what currencies can I receive my salary in with this?",
+    "intent": "50"
+  },
+  {
+    "query": "I need to get a disposable virtual card?",
+    "intent": "37"
+  },
+  {
+    "query": "I need to get my card quickly",
+    "intent": "12"
+  },
+  {
+    "query": "Are EUR exchanges acceptable?",
+    "intent": "36"
+  },
+  {
+    "query": "There is a \u20ac1 extra fee in my statement",
+    "intent": "34"
+  },
+  {
+    "query": "Where is the transfer to my account?",
+    "intent": "5"
+  },
+  {
+    "query": "The ATM didn't give me what I asked for but my balance says it did",
+    "intent": "75"
+  },
+  {
+    "query": "If I am running low on credit can I auto top up?",
+    "intent": "4"
+  },
+  {
+    "query": "Can someone please explain to me where my source of funds came from?",
+    "intent": "70"
+  },
+  {
+    "query": "For some reason, the money I added was returned.",
+    "intent": "61"
+  },
+  {
+    "query": "What should I do if I think someone stole my details and used my information to make some transactions?",
+    "intent": "22"
+  },
+  {
+    "query": "how can i exchange currencies",
+    "intent": "33"
+  },
+  {
+    "query": "Do you have an age requirement when opening an account with your service?",
+    "intent": "1"
+  },
+  {
+    "query": "need to exchange currencies",
+    "intent": "33"
+  },
+  {
+    "query": "Show me where to order my card.",
+    "intent": "43"
+  },
+  {
+    "query": "If I can, I would like to get both Mastercard and Visa from you.",
+    "intent": "73"
+  },
+  {
+    "query": "Transfer could not be completed due to being declined.",
+    "intent": "27"
+  },
+  {
+    "query": "Why was I charged extra when transferring?",
+    "intent": "64"
+  },
+  {
+    "query": "Can you tell me why my pop-up is still pending?",
+    "intent": "47"
+  },
+  {
+    "query": "Help me verify the card used on a top-up.",
+    "intent": "71"
+  },
+  {
+    "query": "Am I able to stop a transfer?",
+    "intent": "8"
+  },
+  {
+    "query": "Am I allowed to carry an additional card?",
+    "intent": "39"
+  },
+  {
+    "query": "I am still awaiting the money I put into my account this morning.",
+    "intent": "6"
+  },
+  {
+    "query": "I was charged $1 in a transaction.",
+    "intent": "34"
+  },
+  {
+    "query": "Can you activate my card pls",
+    "intent": "0"
+  },
+  {
+    "query": "How do I activate my card to start using it?",
+    "intent": "0"
+  },
+  {
+    "query": "Why has my money been returned back to my card.",
+    "intent": "53"
+  },
+  {
+    "query": "I was charged more than once in a single transaction",
+    "intent": "63"
+  },
+  {
+    "query": "I don't have my card in 1 week.  Should I be worried?",
+    "intent": "11"
+  },
+  {
+    "query": "I tried to get money out of the Notting Hill ATM earlier, but I wasn't able to get anything out. Is there a problem with my card? It's the first time I tried using it.",
+    "intent": "26"
+  },
+  {
+    "query": "Delete my account please. Now!",
+    "intent": "55"
+  },
+  {
+    "query": "This stupid system is not letting me prove my identity.",
+    "intent": "68"
+  },
+  {
+    "query": "My card payment won't work.",
+    "intent": "25"
+  },
+  {
+    "query": "How do I change my account details?",
+    "intent": "30"
+  },
+  {
+    "query": "Is my new card activated?",
+    "intent": "0"
+  },
+  {
+    "query": "I would like to activate my card.",
+    "intent": "0"
+  },
+  {
+    "query": "How quickly can you get me my card?",
+    "intent": "12"
+  },
+  {
+    "query": "Which ATMs accept this circuit board ?",
+    "intent": "3"
+  },
+  {
+    "query": "Hey I am standing in front of an ATM here, it only gave me 10 pounds even though I wanted to withdraw 30! Seems like the app has 30 pounds, what do I do??",
+    "intent": "75"
+  },
+  {
+    "query": "Hello, I am a new customer, and just tried topping up for the first time. According to your information, the transaction should be instant - why does it still show as pending?",
+    "intent": "47"
+  },
+  {
+    "query": "How long does it take for a new card to ship?",
+    "intent": "11"
+  },
+  {
+    "query": "Why was my request for cash declined?",
+    "intent": "26"
+  },
+  {
+    "query": "Why isn't my purchase exchange rate correct?",
+    "intent": "17"
+  },
+  {
+    "query": "Is the EUR accepted for exchanges?",
+    "intent": "36"
+  },
+  {
+    "query": "What should I do?  I topped off but the app reversed  it.",
+    "intent": "61"
+  },
+  {
+    "query": "A random charge got added to my card",
+    "intent": "16"
+  },
+  {
+    "query": "I need to close my account as soon as possible.",
+    "intent": "55"
+  },
+  {
+    "query": "The cash withdrawal I took seems to be off. The exchange rate is wrong.",
+    "intent": "76"
+  },
+  {
+    "query": "I think that the card is stolen.  What are my next steps?",
+    "intent": "41"
+  },
+  {
+    "query": "I hope to get a Visa card",
+    "intent": "73"
+  },
+  {
+    "query": "I just moved. How do I give you my new address?",
+    "intent": "30"
+  },
+  {
+    "query": "What should I do if I want to get another card for someone in my family?",
+    "intent": "39"
+  },
+  {
+    "query": "Card payment has be declined.",
+    "intent": "53"
+  },
+  {
+    "query": "My card is due to expire",
+    "intent": "9"
+  },
+  {
+    "query": "Im going to need to make a transfer from a UK account but I need it to go through ASAP. Is that going to be possible or will it take forever?? Im hoping it will be a couple hours and not a couple weeks.",
+    "intent": "5"
+  },
+  {
+    "query": "How can I find out about an extra fee on my statement?",
+    "intent": "34"
+  },
+  {
+    "query": "Will the card be a Mastercard or a Visa?",
+    "intent": "73"
+  },
+  {
+    "query": "My account balance doesn't reflect an update I made by cheque yesterday. Is something wrong or is the system slow?",
+    "intent": "6"
+  },
+  {
+    "query": "I need to figure out who has access to my card there are some payments I didn't make that are showing on the app.  Could you please help?",
+    "intent": "16"
+  },
+  {
+    "query": "I want to activate the card.",
+    "intent": "0"
+  },
+  {
+    "query": "I am in the EU. Can I get one of your cards?",
+    "intent": "24"
+  },
+  {
+    "query": "Can I change my PIN online?",
+    "intent": "21"
+  },
+  {
+    "query": "How long does it take for a cash withdrawal to show?",
+    "intent": "46"
+  },
+  {
+    "query": "A direct debit payment I didn't do shows in my app",
+    "intent": "28"
+  },
+  {
+    "query": "How do I top up using my card?",
+    "intent": "62"
+  },
+  {
+    "query": "Could I get tracking on the card?",
+    "intent": "11"
+  },
+  {
+    "query": "Can I use my apple watch to top up?",
+    "intent": "2"
+  },
+  {
+    "query": "How much can I top up on my card?",
+    "intent": "60"
+  },
+  {
+    "query": "How can I create a disposable virtual card?",
+    "intent": "37"
+  },
+  {
+    "query": "What different currencies can I get?",
+    "intent": "33"
+  },
+  {
+    "query": "When did you send me my new card?",
+    "intent": "11"
+  },
+  {
+    "query": "Why can't the person I sent the money transfer to see it?",
+    "intent": "66"
+  },
+  {
+    "query": "Can I make a contactless payments?",
+    "intent": "23"
+  },
+  {
+    "query": "Why has my payment been reversed?",
+    "intent": "53"
+  },
+  {
+    "query": "How much do you charge for exchange rates?",
+    "intent": "31"
+  },
+  {
+    "query": "How much will I be charged for a cross-currency exchange?",
+    "intent": "31"
+  },
+  {
+    "query": "Why do you need so much information about me",
+    "intent": "74"
+  },
+  {
+    "query": "Can i make transactions before identity verification?",
+    "intent": "74"
+  },
+  {
+    "query": "Please tell me what the exchange fee is.",
+    "intent": "31"
+  },
+  {
+    "query": "I am not sure where my phone is.",
+    "intent": "42"
+  },
+  {
+    "query": "There's a cash withdrawal on my account that I didn't make",
+    "intent": "20"
+  },
+  {
+    "query": "What is the estimated time on an urgent transfer from China?",
+    "intent": "67"
+  },
+  {
+    "query": "I need to cancel a purchase that I made the other day.",
+    "intent": "52"
+  },
+  {
+    "query": "If my card is going to expire this month, do I need to order a new one?",
+    "intent": "9"
+  },
+  {
+    "query": "How long will it take to get to the US?",
+    "intent": "12"
+  },
+  {
+    "query": "I want to replace my current PIN.",
+    "intent": "21"
+  },
+  {
+    "query": "Which cards do you support for top up?",
+    "intent": "54"
+  },
+  {
+    "query": "can I use my card before identity verification?",
+    "intent": "74"
+  },
+  {
+    "query": "I think someone stole my card number and brought stuff in different places that I have never been to. I need to suspend any further purchase on my credit card.",
+    "intent": "22"
+  },
+  {
+    "query": "I can't see the transfer that I put in.",
+    "intent": "5"
+  },
+  {
+    "query": "How do I know where I can use my card?",
+    "intent": "10"
+  },
+  {
+    "query": "Where am I able to get my PIN unblocked?",
+    "intent": "49"
+  },
+  {
+    "query": "Why was there a fee for my cash withdrawal?",
+    "intent": "19"
+  },
+  {
+    "query": "I performed a transfer within the country the day before yesterday, but it has not gone through? Can you check on that? The account number is definitely correct, as I've checked.",
+    "intent": "66"
+  },
+  {
+    "query": "Can you send me a new card and block my current one. I'm in Spain and my wallet was stolen.",
+    "intent": "41"
+  },
+  {
+    "query": "What's the top-up limit?",
+    "intent": "60"
+  },
+  {
+    "query": "Is my card activated?",
+    "intent": "0"
+  },
+  {
+    "query": "How long does it take for a transfer to show up in my account?",
+    "intent": "67"
+  },
+  {
+    "query": "My friend would like to send me money. What are the options available to them?",
+    "intent": "50"
+  },
+  {
+    "query": "I am suppose to be getting a refund from something I purchased but it hasn't showed up in my account.",
+    "intent": "51"
+  },
+  {
+    "query": "Is there a fee for topping off a US card?",
+    "intent": "57"
+  },
+  {
+    "query": "I tried to pay through my account but the payment is not going through. What's going on?",
+    "intent": "45"
+  },
+  {
+    "query": "I want to top up my account by a bank transfer, but will I be charged?",
+    "intent": "56"
+  },
+  {
+    "query": "i tried using a virtual card for a hotel but it didn't work, why not",
+    "intent": "29"
+  },
+  {
+    "query": "Is there a function where I can top-up automatically?",
+    "intent": "4"
+  },
+  {
+    "query": "I would like to make sure it is delivered on a certain date.",
+    "intent": "12"
+  },
+  {
+    "query": "When will I receive a transfer from europe?",
+    "intent": "67"
+  },
+  {
+    "query": "Can I use this app for any currency?",
+    "intent": "54"
+  },
+  {
+    "query": "I think my top up was reversed.",
+    "intent": "61"
+  },
+  {
+    "query": "I'm trying to activate the auto-top up function. Where is it?",
+    "intent": "4"
+  },
+  {
+    "query": "Can I use my card in Austria?",
+    "intent": "24"
+  },
+  {
+    "query": "I just took some cash out of a cash machine in Heathrow airport because I wanted to buy some new sunglasses for my holiday but you've added a fee to the withdrawal, what is this?",
+    "intent": "19"
+  },
+  {
+    "query": "Why is it taking so long for my pending transaction to post as cleared?",
+    "intent": "48"
+  },
+  {
+    "query": "Why was my virtual card rejected?",
+    "intent": "72"
+  },
+  {
+    "query": "Do you support changing the currency I use?",
+    "intent": "33"
+  },
+  {
+    "query": "Do you have an option for auto top up?",
+    "intent": "4"
+  },
+  {
+    "query": "How much would it cost me for a bank transfer to top up my account?",
+    "intent": "56"
+  },
+  {
+    "query": "I can't figure out how to transfer money into my account.",
+    "intent": "65"
+  },
+  {
+    "query": "Are you available in my country?",
+    "intent": "24"
+  },
+  {
+    "query": "Why have I been charged an extra \u00a31?",
+    "intent": "34"
+  },
+  {
+    "query": "Is there a top up fee?",
+    "intent": "56"
+  },
+  {
+    "query": "I used to know my password, but not anymore.",
+    "intent": "44"
+  },
+  {
+    "query": "I made a card payment by my card but it failed. Please let me know when the payment will get completed as its still pending.",
+    "intent": "45"
+  },
+  {
+    "query": "I see I was charged $1 for a transaction.",
+    "intent": "34"
+  },
+  {
+    "query": "Where can I link a new card?",
+    "intent": "13"
+  },
+  {
+    "query": "I made the incorrect payment for my rent yesterday and this needs to be fixed by no later than tomorrow. How can you help?",
+    "intent": "8"
+  },
+  {
+    "query": "Can I use your app to exchange between USD and GBP",
+    "intent": "33"
+  },
+  {
+    "query": "What's going on? I was just recently charged for an ATM withdrawal. I've never seen this charge before and before it's always been free.",
+    "intent": "19"
+  },
+  {
+    "query": "I did a transfer and was charged a fee that I shouldn't have been!",
+    "intent": "64"
+  },
+  {
+    "query": "I only received $20, but I requested $100.",
+    "intent": "75"
+  },
+  {
+    "query": "Where do I go to activate my card?",
+    "intent": "0"
+  },
+  {
+    "query": "is my pin the same as my passcode",
+    "intent": "38"
+  },
+  {
+    "query": "How long do transfers take, mine just says pending?",
+    "intent": "48"
+  },
+  {
+    "query": "Why have I not received my PIN",
+    "intent": "38"
+  },
+  {
+    "query": "My order needs to be canceled.",
+    "intent": "52"
+  },
+  {
+    "query": "Can I get an account for my son?",
+    "intent": "1"
+  },
+  {
+    "query": "I tried pulling out money at the ATM and it gave me an incorrect amount back.",
+    "intent": "75"
+  },
+  {
+    "query": "How does my top-up got cancelled?",
+    "intent": "61"
+  },
+  {
+    "query": "What should I do if the atm eats my card?",
+    "intent": "18"
+  },
+  {
+    "query": "Can you tell me what is wrong ? I top-up with you all the time but this time it just shows my top-up as pending. What is happening?",
+    "intent": "47"
+  },
+  {
+    "query": "There is a direct debit that I didn't set up, what should I do?",
+    "intent": "28"
+  },
+  {
+    "query": "Is there extra fees for making a withdraw in a different country at a cash machine.",
+    "intent": "76"
+  },
+  {
+    "query": "I don't know what a pending payment is.",
+    "intent": "45"
+  },
+  {
+    "query": "I didn't receive the correct amount of cash when I exchanged it overseas.",
+    "intent": "76"
+  },
+  {
+    "query": "A receiver let me know that they didn't receive the full transfer I completed and that it was actually a bit less than what I sent. At this point I have to make another transfer to make up for the amount missing. Can you please follow up with what's going  on here?",
+    "intent": "64"
+  },
+  {
+    "query": "A payment in my account was made by someone I don't know",
+    "intent": "16"
+  },
+  {
+    "query": "Is it possible to exchange USD and GBP on the app?",
+    "intent": "33"
+  },
+  {
+    "query": "Why isn't my card working anymore?",
+    "intent": "14"
+  },
+  {
+    "query": "Why did I not get the amount I specified at the ATM?",
+    "intent": "75"
+  },
+  {
+    "query": "I can't get my virtual card to work.",
+    "intent": "72"
+  },
+  {
+    "query": "The amount of cash I received did not match the amount I requested",
+    "intent": "75"
+  },
+  {
+    "query": "Can I top up for free using a European card?",
+    "intent": "57"
+  },
+  {
+    "query": "What do I do to verify my source of funds?",
+    "intent": "70"
+  },
+  {
+    "query": "Can you issue both a Visa and a Mastercard to me?",
+    "intent": "73"
+  },
+  {
+    "query": "Do I need any kind of proof for the identity check?",
+    "intent": "69"
+  },
+  {
+    "query": "How can get a Visa card?",
+    "intent": "73"
+  },
+  {
+    "query": "I tried my PIN too many times",
+    "intent": "49"
+  },
+  {
+    "query": "How long does a payment usually show as pending? Is it normal that mine is still pending?",
+    "intent": "45"
+  },
+  {
+    "query": "I made a mistake when making my last transfer, please cancel before it goes thru.",
+    "intent": "8"
+  },
+  {
+    "query": "If I lost my phone, how can I stop someone from accessing my account through the app?",
+    "intent": "42"
+  },
+  {
+    "query": "Why is my card payment cancelled?",
+    "intent": "53"
+  },
+  {
+    "query": "Why has my top up been cancelled",
+    "intent": "61"
+  },
+  {
+    "query": "The ATM didnt let me get cash",
+    "intent": "26"
+  },
+  {
+    "query": "My Identity verification hasn't passed yet is it possible to use my account?",
+    "intent": "74"
+  },
+  {
+    "query": "my exchange rate looks wrong for my last payment",
+    "intent": "17"
+  },
+  {
+    "query": "Do you have any top-up limits?",
+    "intent": "60"
+  },
+  {
+    "query": "My transfer seems to be too expensive.",
+    "intent": "64"
+  },
+  {
+    "query": "Can you explain why the ATM is giving me less money than what I asked for?",
+    "intent": "75"
+  },
+  {
+    "query": "Why is there an extra fee charged?",
+    "intent": "34"
+  },
+  {
+    "query": "I went to top up my card and it was cancelled.",
+    "intent": "61"
+  },
+  {
+    "query": "Cash withdrawal was incorrect at ATM.",
+    "intent": "75"
+  },
+  {
+    "query": "I can't use my virtual disposable card",
+    "intent": "72"
+  },
+  {
+    "query": "Why hasn't my account updated to reflect my current balance?",
+    "intent": "5"
+  },
+  {
+    "query": "How about disposable virtual cards?",
+    "intent": "37"
+  },
+  {
+    "query": "on my statement there is a payment that I don't recognise",
+    "intent": "16"
+  },
+  {
+    "query": "I looked at my statement, and there is a charge for 1\u00a3 that I don't recognize.  Why is it on there?",
+    "intent": "34"
+  },
+  {
+    "query": "I am looking to change my adress.",
+    "intent": "30"
+  },
+  {
+    "query": "Why is the transaction to my friend still pending?",
+    "intent": "66"
+  },
+  {
+    "query": "is there a way to see where funds come from",
+    "intent": "70"
+  },
+  {
+    "query": "My card payment has been declined, why?",
+    "intent": "25"
+  },
+  {
+    "query": "Can you provide me a disposable virtual card?",
+    "intent": "37"
+  },
+  {
+    "query": "My card is about to expire, what do I do?",
+    "intent": "9"
+  },
+  {
+    "query": "I've completely forgot the code to get into the app.",
+    "intent": "44"
+  },
+  {
+    "query": "I haven't received the money from the check I deposited.",
+    "intent": "6"
+  },
+  {
+    "query": "Can you send me more cards for my account?",
+    "intent": "39"
+  },
+  {
+    "query": "I've been waiting for a refund where is it?",
+    "intent": "51"
+  },
+  {
+    "query": "What is the time frame that transfers normally take from a UK account? I just completed a transfer and nothing shows up. I need to know if everything is alright.",
+    "intent": "5"
+  },
+  {
+    "query": "I was charged twice for an in-store purchase that I thought was declined.  My App says that it's still pending for one of the payments. Please make sure one of the charges is removed.",
+    "intent": "63"
+  },
+  {
+    "query": "There is the same transaction showing more than once.",
+    "intent": "63"
+  },
+  {
+    "query": "I have duplicate charges for the same transaction",
+    "intent": "63"
+  },
+  {
+    "query": "There's a direct debit payment that I don't recognize.",
+    "intent": "28"
+  },
+  {
+    "query": "If I need more than cards will I have to pay a fee to receive them?",
+    "intent": "39"
+  },
+  {
+    "query": "My top up is giving me problems. What is wrong with it?",
+    "intent": "59"
+  },
+  {
+    "query": "Can I change my PIN at any ATM?",
+    "intent": "21"
+  },
+  {
+    "query": "I wanna revert a transaction i did this morning.",
+    "intent": "8"
+  },
+  {
+    "query": "Hello, I see that I have been charged an extra $1 on my app.  Could you please provide me with a reason for this charge?",
+    "intent": "34"
+  },
+  {
+    "query": "I got some cash out of the ATM over the holiday and it seems that I've been grossly overcharged. I wouldn't have done that if I knew of these outrageous charges!",
+    "intent": "76"
+  },
+  {
+    "query": "I was getting some cash out of the ATM but it cancelled on me without warning.",
+    "intent": "26"
+  },
+  {
+    "query": "What do I do if I see a cash withdrawal on my account that I don't remember making?",
+    "intent": "20"
+  },
+  {
+    "query": "I want to activate my card, how do I do it?",
+    "intent": "0"
+  },
+  {
+    "query": "My atm withdraw is stillpending",
+    "intent": "46"
+  },
+  {
+    "query": "After purchasing an item I noticed the exchange rate was incorrect.",
+    "intent": "17"
+  },
+  {
+    "query": "my pin hasn't arrived in the post! How do I cancel it or get a new one?",
+    "intent": "38"
+  },
+  {
+    "query": "This company is bad, delete my account now.",
+    "intent": "55"
+  },
+  {
+    "query": "Is my card denied anywhere?",
+    "intent": "10"
+  },
+  {
+    "query": "When I got cash I believe that the exchange rate was wrong",
+    "intent": "76"
+  },
+  {
+    "query": "How did you guys get your exchange rate?",
+    "intent": "32"
+  },
+  {
+    "query": "I need help right now. I realize I sent my payment to the wrong account number after making a typo. Please cancel the transfer now since I can't do it from the app.",
+    "intent": "8"
+  },
+  {
+    "query": "Are cards delivered to my location?",
+    "intent": "43"
+  },
+  {
+    "query": "I was charged for using my card?",
+    "intent": "15"
+  },
+  {
+    "query": "The currency exchange rate was wrong for a purchase I made.",
+    "intent": "17"
+  },
+  {
+    "query": "Can I use top-up with Apple pay?",
+    "intent": "2"
+  },
+  {
+    "query": "I need help proving that this is really me and to verify my identity.",
+    "intent": "68"
+  },
+  {
+    "query": "Does my account have the option to hold multiple currencies?",
+    "intent": "36"
+  },
+  {
+    "query": "I've been trying to make a transfer and it doesn't seem to be working. (5 times) What is wrong with your system?",
+    "intent": "35"
+  },
+  {
+    "query": "There is a withdrawal on my account I didn't make.",
+    "intent": "20"
+  },
+  {
+    "query": "I received an extra charge for using the card. Why?",
+    "intent": "15"
+  },
+  {
+    "query": "How long does it take for a transfer to finish pending?",
+    "intent": "48"
+  },
+  {
+    "query": "Why would my card payment not work?",
+    "intent": "25"
+  },
+  {
+    "query": "I'm still waiting for my new card.",
+    "intent": "11"
+  },
+  {
+    "query": "what is the average wait for transfers",
+    "intent": "67"
+  },
+  {
+    "query": "Why did my card payment get declined?",
+    "intent": "25"
+  },
+  {
+    "query": "Help! I've forgot my app passcode!",
+    "intent": "44"
+  },
+  {
+    "query": "What does it mean if my payment has been reverted?",
+    "intent": "53"
+  },
+  {
+    "query": "I need to renew a card that's about to expire",
+    "intent": "9"
+  },
+  {
+    "query": "The app is not able to realize that it is me.",
+    "intent": "68"
+  },
+  {
+    "query": "Although I am not located in the UK area, may i still receive a card?",
+    "intent": "24"
+  },
+  {
+    "query": "Is it possible to hold money in multiple currencies?",
+    "intent": "36"
+  },
+  {
+    "query": "Are extra charges added for sending out additional cards?",
+    "intent": "39"
+  },
+  {
+    "query": "Help! My account doesn't show any funds. Is transferring funds an option I can use?",
+    "intent": "65"
+  },
+  {
+    "query": "I need a second card on this account for my daughter.",
+    "intent": "39"
+  },
+  {
+    "query": "What does the decline message mean",
+    "intent": "27"
+  },
+  {
+    "query": "Is a physical charge extra",
+    "intent": "43"
+  },
+  {
+    "query": "I'm suddenly getting an error while attempting a transfer that it isn't possible. Why? I've done it before.",
+    "intent": "7"
+  },
+  {
+    "query": "I signed up, but don't have a PIN. Where can I find it?",
+    "intent": "38"
+  },
+  {
+    "query": "Will you assess me more fees if I top up with an international card?",
+    "intent": "57"
+  },
+  {
+    "query": "I would like to change my personal details.",
+    "intent": "30"
+  },
+  {
+    "query": "I would like to give another card to my daughter, how can I proceed?",
+    "intent": "39"
+  },
+  {
+    "query": "Can I have a mastercard?",
+    "intent": "73"
+  },
+  {
+    "query": "When I received my money, it was not in the correct amount. The exchange rate was not what it should have been.",
+    "intent": "76"
+  },
+  {
+    "query": "I purchased something and the seller hasn't received the money yet, but it has been deducted from my account.",
+    "intent": "53"
+  },
+  {
+    "query": "Can I track my card while it is in the process of delivery?",
+    "intent": "11"
+  },
+  {
+    "query": "I think someone else is using my card.",
+    "intent": "22"
+  },
+  {
+    "query": "The $1.00 has still not been reverted as indicated in the previous email.",
+    "intent": "34"
+  },
+  {
+    "query": "Hi, Last week I have contacted the seller for a refund as directed by you, but i have not received the money yet. Please look into this issue with seller and help me in getting the refund.",
+    "intent": "51"
+  },
+  {
+    "query": "my google pay seems to be acting up.",
+    "intent": "2"
+  },
+  {
+    "query": "How do I get money from friends?",
+    "intent": "50"
+  },
+  {
+    "query": "I can't see my Google Pay top up. Is it not working correctly?",
+    "intent": "2"
+  },
+  {
+    "query": "I did not get the cash that is showing up in my app.",
+    "intent": "20"
+  },
+  {
+    "query": "Why hasn't my money transfer shown up yet?",
+    "intent": "5"
+  },
+  {
+    "query": "Why does a top- up need to be verify?",
+    "intent": "71"
+  },
+  {
+    "query": "What US credit cards do you accept?",
+    "intent": "54"
+  },
+  {
+    "query": "How long will it take to verify my account?",
+    "intent": "68"
+  },
+  {
+    "query": "Can I do more than 10 transactions with a disposable card?",
+    "intent": "29"
+  },
+  {
+    "query": "where do I go to top up with cash?",
+    "intent": "58"
+  },
+  {
+    "query": "I think that there was an error in calculating the exchange rate.  I recently withdrew cash and received much less than expected.",
+    "intent": "76"
+  },
+  {
+    "query": "I would like to request a card.",
+    "intent": "43"
+  },
+  {
+    "query": "It's not letting me transfer money to my beneficiery.",
+    "intent": "7"
+  },
+  {
+    "query": "I did a cash deposit to my account, but I am not seeing it on my statement.",
+    "intent": "6"
+  },
+  {
+    "query": "How do I go about verifying the top-up card?",
+    "intent": "71"
+  },
+  {
+    "query": "Will the transfer show up in my account soon?",
+    "intent": "67"
+  },
+  {
+    "query": "I already have an account. Why can't I use it unless my identity is verified?",
+    "intent": "74"
+  },
+  {
+    "query": "Can I use app to unblock my card?",
+    "intent": "49"
+  },
+  {
+    "query": "What other currencies are available to change to?",
+    "intent": "33"
+  },
+  {
+    "query": "How much can I withdrawal in one month without incurring fees?",
+    "intent": "19"
+  },
+  {
+    "query": "Is there any way I can get more physical cards to use with my account?",
+    "intent": "39"
+  },
+  {
+    "query": "I thought transfers were free of charge.  I bought something abroad and got charged a ridiculous fee. How do I get this problem fixed.",
+    "intent": "64"
+  },
+  {
+    "query": "I make payments for my place abroad using this account and since i use it so frequently I was wondering why did the fees increase suddenly rather than decreasing? I would think customers like me should receive incentives for using your service",
+    "intent": "64"
+  },
+  {
+    "query": "I'm worried my card might be lost in the mail? How long does it usually take to arrive?",
+    "intent": "12"
+  },
+  {
+    "query": "Hello. I just noticed I was charged two times for a restaurant I visited this week. Can you reverse the additional charge?",
+    "intent": "63"
+  },
+  {
+    "query": "Why hasn't my friend's transaction arrive yet?",
+    "intent": "66"
+  },
+  {
+    "query": "Where are the ATMs that I can use Mastercard?",
+    "intent": "3"
+  },
+  {
+    "query": "Hello, I was contacted by a seller who let me know my money didn't come through on their side. It most certainly came out of my account so I need this looked at immediately because now it has been returned to me!",
+    "intent": "53"
+  },
+  {
+    "query": "Where do I go to fill out the identity form?",
+    "intent": "69"
+  },
+  {
+    "query": "I withdrew cash and was charged. Why?",
+    "intent": "19"
+  },
+  {
+    "query": "How do I reverse a transaction on my account?",
+    "intent": "52"
+  },
+  {
+    "query": "Why do I get a fee every time I transfer?",
+    "intent": "64"
+  },
+  {
+    "query": "When will I see my cash, since I already deposited my check?",
+    "intent": "6"
+  },
+  {
+    "query": "Can I use American Express?",
+    "intent": "54"
+  },
+  {
+    "query": "Why isn't my balance updating?  I did a bank transfer and it isn't current.",
+    "intent": "5"
+  },
+  {
+    "query": "What is the limit on disposable cards?",
+    "intent": "29"
+  },
+  {
+    "query": "Where is my virtual card?",
+    "intent": "40"
+  },
+  {
+    "query": "My transfer is still pending, why?",
+    "intent": "48"
+  },
+  {
+    "query": "Do you offer cards for those in other countries?",
+    "intent": "24"
+  },
+  {
+    "query": "What is the maximum top up?",
+    "intent": "60"
+  },
+  {
+    "query": "Do you charge a fee on currency exchange?",
+    "intent": "31"
+  },
+  {
+    "query": "Is there a limit to a disposable virtual card?",
+    "intent": "29"
+  },
+  {
+    "query": "Why are my transfers being declined? It normally works but now it's declining my card. I've tried it a few times but it's still not working.",
+    "intent": "27"
+  },
+  {
+    "query": "My money is gone. I had topped up recently and saw it was there and went through, but now it's disappeared, what is happening?",
+    "intent": "61"
+  },
+  {
+    "query": "Am I charged if I make a top-up?",
+    "intent": "56"
+  },
+  {
+    "query": "I do not recognize the card payment.",
+    "intent": "16"
+  },
+  {
+    "query": "Help please!  My rent payment is coming out tomorrow and I made a payment mistake yesterday! Can you put in in the correct account?",
+    "intent": "8"
+  },
+  {
+    "query": "I requested $100 but only got $20",
+    "intent": "75"
+  },
+  {
+    "query": "My transfer went through, but it seems to be caught up in a pending status.  This was very important that it got done quickly, can you give me a status update on how long it will take?",
+    "intent": "48"
+  },
+  {
+    "query": "I should only have one charge, but it shows two.",
+    "intent": "63"
+  },
+  {
+    "query": "Please tell me how to get a refund for something I bought.",
+    "intent": "52"
+  },
+  {
+    "query": "I am not happy with your service and request that my account be terminated!",
+    "intent": "55"
+  },
+  {
+    "query": "Can I unblock my PIN in the app?",
+    "intent": "49"
+  },
+  {
+    "query": "How do I replace a stolen card?",
+    "intent": "41"
+  },
+  {
+    "query": "What is the extra fee I was charged when using an ATM?",
+    "intent": "19"
+  },
+  {
+    "query": "If the ATM only gave me 10 pounds instead of the 30 I requested, what do I do?",
+    "intent": "75"
+  },
+  {
+    "query": "My app says that I'm not verified.",
+    "intent": "68"
+  },
+  {
+    "query": "Can I exchange an item for a refund?",
+    "intent": "52"
+  },
+  {
+    "query": "I made a purchase with my card and I was charged a fee for using it",
+    "intent": "15"
+  },
+  {
+    "query": "How can I find out why my transfer didn't go through?",
+    "intent": "35"
+  },
+  {
+    "query": "Why did my transfer not work?",
+    "intent": "35"
+  },
+  {
+    "query": "My top up did not complete.",
+    "intent": "47"
+  },
+  {
+    "query": "I put the wrong pin too many times and now it is blocked. Can you help me unblock it?",
+    "intent": "49"
+  },
+  {
+    "query": "Did a card payment that I made get cancelled?",
+    "intent": "53"
+  },
+  {
+    "query": "I have transfered to my account before but it is being declined now?",
+    "intent": "27"
+  },
+  {
+    "query": "I would like to know what the restrictions are for the disposable cards.",
+    "intent": "29"
+  },
+  {
+    "query": "Hi, I'm in progress of purchasing a flat and am trying to make to make a payment.  An error is appearing, and I need assistance.",
+    "intent": "35"
+  },
+  {
+    "query": "How can I verify my identity?",
+    "intent": "69"
+  },
+  {
+    "query": "Why was my transfer charged a fee?",
+    "intent": "64"
+  },
+  {
+    "query": "I am unhappy with an item I bought. How do I get a refund?",
+    "intent": "52"
+  },
+  {
+    "query": "What should I do if I see a withdrawal is pending?",
+    "intent": "46"
+  },
+  {
+    "query": "I would like to top up my account with a bank transfer, is that allowed?",
+    "intent": "65"
+  },
+  {
+    "query": "What happens when I money transaction doesn't show up on the receiving side?",
+    "intent": "66"
+  },
+  {
+    "query": "I just lost my wallet and I think someone is using my card to withdraw my money. Can you please cancel or freeze my card?!!",
+    "intent": "20"
+  },
+  {
+    "query": "How long will my transfer stay pending?",
+    "intent": "48"
+  },
+  {
+    "query": "I saw a fee on my app from one of my payments and I wasn't sure where it came from. Is there a way you can tell me when there's an additional fee for my payments?",
+    "intent": "15"
+  },
+  {
+    "query": "How can I fix this?  There is a double charge on my account.",
+    "intent": "63"
+  },
+  {
+    "query": "Can my password be reset if I do not have it?",
+    "intent": "44"
+  },
+  {
+    "query": "What are the cards and currencies that you support?",
+    "intent": "54"
+  },
+  {
+    "query": "What other fiat currencies can I use?",
+    "intent": "36"
+  },
+  {
+    "query": "Can I pick a new PIN?",
+    "intent": "21"
+  },
+  {
+    "query": "What currencies are supported?",
+    "intent": "36"
+  },
+  {
+    "query": "How long will delivery to the US take?",
+    "intent": "12"
+  },
+  {
+    "query": "The transaction for the cash I pulled out of the ATM earlier is pending in the app, but how if I already have the cash?",
+    "intent": "46"
+  },
+  {
+    "query": "Top-up is not working",
+    "intent": "59"
+  },
+  {
+    "query": "Can I use a disposable virtual card for any purchase?",
+    "intent": "37"
+  },
+  {
+    "query": "I got double charged!",
+    "intent": "63"
+  },
+  {
+    "query": "The app is showing mt withdrawals that aren't  mine.",
+    "intent": "20"
+  },
+  {
+    "query": "After my checque or cash deposit, my balance didn't update.",
+    "intent": "6"
+  },
+  {
+    "query": "I could not use my card in a store.",
+    "intent": "25"
+  },
+  {
+    "query": "My card has been compromised. I see a bunch of online shopping charges that I didn't make. I need to freeze it immediately.",
+    "intent": "22"
+  },
+  {
+    "query": "Who is giving me my money?",
+    "intent": "70"
+  },
+  {
+    "query": "There is a payment I don't recognize",
+    "intent": "16"
+  },
+  {
+    "query": "Where should I withdraw money from?",
+    "intent": "3"
+  },
+  {
+    "query": "I refuse to verify my identity.",
+    "intent": "74"
+  },
+  {
+    "query": "My phone has been stolen.  How can I make sure no one uses my account from it?",
+    "intent": "42"
+  },
+  {
+    "query": "when will my transfer arrive",
+    "intent": "66"
+  },
+  {
+    "query": "I do not understand what this particular direct debit is ?",
+    "intent": "28"
+  },
+  {
+    "query": "Why did my credit card get declined for top up?",
+    "intent": "59"
+  },
+  {
+    "query": "What businesses can I use this card with?",
+    "intent": "10"
+  },
+  {
+    "query": "How long does a transfer from the United Kingdom take? I haven't seen it show up yet in my bank account and want to make sure I get the transfer.",
+    "intent": "5"
+  },
+  {
+    "query": "Why can't I add any beneficiary I choose?",
+    "intent": "7"
+  },
+  {
+    "query": "A transfer was not allowed to an account.",
+    "intent": "7"
+  },
+  {
+    "query": "How can I get my Google pay top up to work?",
+    "intent": "2"
+  },
+  {
+    "query": "Why hasn't my return cleared my account?",
+    "intent": "51"
+  },
+  {
+    "query": "I didn't think my country-to-country money transfer would take so long. It still says that it's pending so I re-checked all of the account information--everything seems right, so what's the deal?",
+    "intent": "48"
+  },
+  {
+    "query": "Can I trace where my funds came from?",
+    "intent": "70"
+  },
+  {
+    "query": "I can't use the app because I got mugged yesterday and they took everything. Please help.",
+    "intent": "42"
+  },
+  {
+    "query": "There's a duplicate charge on my account?",
+    "intent": "63"
+  },
+  {
+    "query": "What is the reason a transfer shows as pending?",
+    "intent": "48"
+  },
+  {
+    "query": "How long does transfer from the US take?",
+    "intent": "67"
+  },
+  {
+    "query": "What are you exchange rates?",
+    "intent": "32"
+  },
+  {
+    "query": "I need to activate my card.",
+    "intent": "0"
+  },
+  {
+    "query": "Where can I find the auto-top option?",
+    "intent": "4"
+  },
+  {
+    "query": "My ATM withdrawal was declined.",
+    "intent": "26"
+  },
+  {
+    "query": "Where can I find the verification code for the card top-up?",
+    "intent": "71"
+  },
+  {
+    "query": "I made a transfer and they haven't received the money I sent them.",
+    "intent": "66"
+  },
+  {
+    "query": "Tell me how to renew my new card?",
+    "intent": "0"
+  },
+  {
+    "query": "How do I link a new card in the app?",
+    "intent": "13"
+  },
+  {
+    "query": "What are the steps for changing my passcode?",
+    "intent": "44"
+  },
+  {
+    "query": "I want to terminate my account",
+    "intent": "55"
+  },
+  {
+    "query": "What should I do with my stuck ATM?",
+    "intent": "18"
+  },
+  {
+    "query": "They used the wrong rate when I made a purchase with foreign currency.",
+    "intent": "17"
+  },
+  {
+    "query": "A refund is taking too long.",
+    "intent": "51"
+  },
+  {
+    "query": "I need to change my card PIN.",
+    "intent": "21"
+  },
+  {
+    "query": "Hello, I'm having trouble with my card, I don't understand what's happening, I tried using the ATM machine earlier but it wasn't working but seems like the transactions is still in progress, can you cancel it for me?",
+    "intent": "46"
+  },
+  {
+    "query": "Where can I located the auto-top up option?",
+    "intent": "4"
+  },
+  {
+    "query": "When will my payment go through?",
+    "intent": "45"
+  },
+  {
+    "query": "Is there a way yo change my PIN?",
+    "intent": "21"
+  },
+  {
+    "query": "Can I order a second card?",
+    "intent": "39"
+  },
+  {
+    "query": "Is it possible to get both Visa and Mastercard from you?",
+    "intent": "73"
+  },
+  {
+    "query": "Is there a way to use a cheque to top up my account?",
+    "intent": "58"
+  },
+  {
+    "query": "I think there has been a mistake with my transfer",
+    "intent": "27"
+  },
+  {
+    "query": "Someone stole my wallet a couple of hours ago now and they have taken money from my account. Is there any way that you can help so I won't lose any more of my money.",
+    "intent": "20"
+  },
+  {
+    "query": "What kind of cards are supported?  What currency?",
+    "intent": "54"
+  },
+  {
+    "query": "I have made several unsuccessful attempts to make a transfer.  I'm getting frustrated at getting error messages and it not going through.",
+    "intent": "7"
+  },
+  {
+    "query": "I would like to track a card sent to me, how do I do that?",
+    "intent": "11"
+  },
+  {
+    "query": "Hi I'm waiting for a refund for an item I bought. I have contacted the merchant directly but had nothing back. Can you tell me whether or not you are able to refund me for the item?",
+    "intent": "51"
+  },
+  {
+    "query": "Hi, I am trying to buy something online, but i think there is some issue in my card. As payment is reverted. Please help me in this as i am facing the same issue from last two weeks.",
+    "intent": "53"
+  },
+  {
+    "query": "I can't verify my ID. Why?",
+    "intent": "68"
+  },
+  {
+    "query": "Where is the refund on my statement?",
+    "intent": "51"
+  },
+  {
+    "query": "When I purchased a product in another country the currency exchange was incorrect.",
+    "intent": "17"
+  },
+  {
+    "query": "I use this card all the time so why did it get declined at the store today?",
+    "intent": "25"
+  },
+  {
+    "query": "I wasn't allowed to transfer to my account",
+    "intent": "7"
+  },
+  {
+    "query": "I need to know the if there is a limit on the amount for auto top-up.",
+    "intent": "4"
+  },
+  {
+    "query": "What do I do to unblock my PIN?",
+    "intent": "49"
+  },
+  {
+    "query": "How long does it typically take a transfer to go through?  I sent some money to a friend earlier today, and she really needs it.  It still is a pending transfer, even though I sent it a few hours ago.",
+    "intent": "66"
+  },
+  {
+    "query": "At what age can I open an account?",
+    "intent": "1"
+  },
+  {
+    "query": "Are there charges for using a bank card to top up",
+    "intent": "57"
+  },
+  {
+    "query": "how many days processing new card?",
+    "intent": "23"
+  },
+  {
+    "query": "I'm seeing a direct debit payment that is not me.",
+    "intent": "28"
+  },
+  {
+    "query": "How can I exchange to EUR?",
+    "intent": "36"
+  },
+  {
+    "query": "Why am I not able to get cash from the ATM?",
+    "intent": "26"
+  },
+  {
+    "query": "My phone is at the hotel.  How can I use the app?",
+    "intent": "42"
+  },
+  {
+    "query": "I received a decline message on a transfer",
+    "intent": "27"
+  },
+  {
+    "query": "Can I track when my card will be delivered?",
+    "intent": "11"
+  },
+  {
+    "query": "I have questions about how to transfer money to my account.",
+    "intent": "65"
+  },
+  {
+    "query": "I did a transfer.  What is the extra fee?",
+    "intent": "64"
+  },
+  {
+    "query": "Is auto top up available?",
+    "intent": "4"
+  },
+  {
+    "query": "Why can't I get my top up to work in Apple Pay?",
+    "intent": "2"
+  },
+  {
+    "query": "What is the number of transactions for one disposable card?",
+    "intent": "29"
+  },
+  {
+    "query": "What is the way to go about getting a virtual card?",
+    "intent": "40"
+  },
+  {
+    "query": "A transfer could not be completed.",
+    "intent": "35"
+  },
+  {
+    "query": "Hi, I am currently in the process of buying a flat and I am waiting for the mortgage to go through but it keeps showing up as an error.  Do you know what could be causing this and can you help me get the money over.",
+    "intent": "35"
+  },
+  {
+    "query": "I'm having trouble proving my identity",
+    "intent": "68"
+  },
+  {
+    "query": "I would like to dispute a direct debit transaction",
+    "intent": "28"
+  },
+  {
+    "query": "Explain the payment that was declined!",
+    "intent": "25"
+  },
+  {
+    "query": "Why did the ATM take my card and keep it?",
+    "intent": "18"
+  },
+  {
+    "query": "Where is the card PIN located?",
+    "intent": "38"
+  },
+  {
+    "query": "Is it possible for me to top up with a cheque?",
+    "intent": "58"
+  },
+  {
+    "query": "What if I need my salary in another currency?",
+    "intent": "50"
+  },
+  {
+    "query": "is a transfer to a beneficiary allowed?",
+    "intent": "7"
+  },
+  {
+    "query": "i entered my pin in wrong and got it frozen. how many tries do i have",
+    "intent": "26"
+  },
+  {
+    "query": "I'm interested in using fiat currencies, which do you support?",
+    "intent": "36"
+  },
+  {
+    "query": "I made a payment but the app cancelled it.",
+    "intent": "53"
+  },
+  {
+    "query": "Show me the amount of transactions I can do with a disposable card.",
+    "intent": "29"
+  },
+  {
+    "query": "I didn't know there was a charge for tranferring. What is the charge?",
+    "intent": "64"
+  },
+  {
+    "query": "The transfer to my account was not allowed.",
+    "intent": "7"
+  },
+  {
+    "query": "My money I had was gone and I could not get gas!",
+    "intent": "62"
+  },
+  {
+    "query": "An extra fee has been added to my card payment is this correct?",
+    "intent": "15"
+  },
+  {
+    "query": "I believe you charged me too much to exchange my money",
+    "intent": "17"
+  },
+  {
+    "query": "Is there a fee to order a physical card?",
+    "intent": "43"
+  },
+  {
+    "query": "What is the proper way to activate a card?",
+    "intent": "0"
+  },
+  {
+    "query": "I can't see a verification code anywhere",
+    "intent": "71"
+  },
+  {
+    "query": "Why do I have a transaction showing up more than once?",
+    "intent": "63"
+  },
+  {
+    "query": "Can I change my card PIN?",
+    "intent": "21"
+  },
+  {
+    "query": "I need to transfer to my account and cant.",
+    "intent": "7"
+  },
+  {
+    "query": "I seem to be having trouble with my Google Pay Top. Can you please help?",
+    "intent": "2"
+  },
+  {
+    "query": "Can my daughter make an account?",
+    "intent": "1"
+  },
+  {
+    "query": "Everything I have was stolen yesterday making it so I don't have access to the app, what should I do?",
+    "intent": "42"
+  },
+  {
+    "query": "Why did you revert my top up?",
+    "intent": "61"
+  },
+  {
+    "query": "Are there any fees associated with receiving money?",
+    "intent": "56"
+  },
+  {
+    "query": "I want to use my account before identity verification",
+    "intent": "74"
+  },
+  {
+    "query": "I have not used my card all day, however, there is an unusual payment showing in my app.  I would like to have that amount reimbursed.",
+    "intent": "28"
+  },
+  {
+    "query": "How do I edit the personal details on my account?",
+    "intent": "30"
+  },
+  {
+    "query": "Why hasn't my payment gone through?",
+    "intent": "45"
+  },
+  {
+    "query": "My card isn't working at all, I need assistance. It's really frustrating.",
+    "intent": "14"
+  },
+  {
+    "query": "Where can the cards be delivered?",
+    "intent": "43"
+  },
+  {
+    "query": "Do you take both Visa and Mastercard?",
+    "intent": "73"
+  },
+  {
+    "query": "My passcode won't work.",
+    "intent": "44"
+  },
+  {
+    "query": "I would like to cancel a transfer",
+    "intent": "8"
+  },
+  {
+    "query": "Does it cost to top up my card?",
+    "intent": "57"
+  },
+  {
+    "query": "How can I exchange GBP for AUD?",
+    "intent": "33"
+  },
+  {
+    "query": "Can friends I have top-up my account?",
+    "intent": "62"
+  },
+  {
+    "query": "The exchange rate you are using is really bad. This can't possibly be the official interbank exchange rate.",
+    "intent": "17"
+  },
+  {
+    "query": "Is there a problem with my account? When I tried to withdraw cash at an ATM I was denied.",
+    "intent": "26"
+  },
+  {
+    "query": "The app reverted my recent payment",
+    "intent": "53"
+  },
+  {
+    "query": "can i use check to top up",
+    "intent": "58"
+  },
+  {
+    "query": "Do you know the rate of exchange?",
+    "intent": "32"
+  },
+  {
+    "query": "I would like to cancel my previous transaction",
+    "intent": "8"
+  },
+  {
+    "query": "How long does an international transfer take? I made the transfer from France 2 days ago, but it is not showing up in my bank yet.",
+    "intent": "5"
+  },
+  {
+    "query": "Why wasn't my payment to beneficiary X approved?",
+    "intent": "7"
+  },
+  {
+    "query": "Why is my transfer more expensive than I thought?",
+    "intent": "64"
+  },
+  {
+    "query": "I have made a card payment but it did not completed still showing as pending. Please tell me when it will be completed.",
+    "intent": "45"
+  },
+  {
+    "query": "how much does it cost to add money to my card",
+    "intent": "57"
+  },
+  {
+    "query": "i have tried everything to complete a transfer but can't, what should i do next",
+    "intent": "27"
+  },
+  {
+    "query": "Why is my top-up showing as cancelled?",
+    "intent": "61"
+  },
+  {
+    "query": "I don't know what's wrong with my card, but it has not worked at multiple places today.",
+    "intent": "14"
+  },
+  {
+    "query": "i have been trying to add money with apple pay but it wont work, why?",
+    "intent": "2"
+  },
+  {
+    "query": "My card will expire next month, will I need to order a new one?",
+    "intent": "9"
+  },
+  {
+    "query": "Do you accept Visa or Mastercard?",
+    "intent": "73"
+  },
+  {
+    "query": "I was charged multiple times at the same location at the same time",
+    "intent": "63"
+  },
+  {
+    "query": "Report stolen card",
+    "intent": "41"
+  },
+  {
+    "query": "Why did the app deny my top-up?",
+    "intent": "59"
+  },
+  {
+    "query": "Is it possible to get a new card in China?",
+    "intent": "9"
+  },
+  {
+    "query": "Why has another fee been placed on my statement?",
+    "intent": "34"
+  },
+  {
+    "query": "Tell me how to delete my account.",
+    "intent": "55"
+  },
+  {
+    "query": "The exchange rate applied was incorrect when I was traveling outside the country.",
+    "intent": "76"
+  },
+  {
+    "query": "I have lost my card! What is my next step?",
+    "intent": "41"
+  },
+  {
+    "query": "I have lost my phone, what steps can I take to prevent someone using my account?",
+    "intent": "42"
+  },
+  {
+    "query": "Can the exchange rate change while I am in the process of making a withdrawal?",
+    "intent": "76"
+  },
+  {
+    "query": "The exchange rate for foreign ATM currency is wrong.",
+    "intent": "76"
+  },
+  {
+    "query": "please delete account",
+    "intent": "55"
+  },
+  {
+    "query": "need my details changed",
+    "intent": "30"
+  },
+  {
+    "query": "Is there a way I can get a Visa card?",
+    "intent": "73"
+  },
+  {
+    "query": "Where can I do a cash withdrawal?",
+    "intent": "3"
+  },
+  {
+    "query": "I am having trouble finding the top-up card verification code.",
+    "intent": "71"
+  },
+  {
+    "query": "I am not satisfied with your service.  Close my account.",
+    "intent": "55"
+  },
+  {
+    "query": "I need clarity on why my card is not working.",
+    "intent": "14"
+  },
+  {
+    "query": "I deposited money but my balance hasn't been updated yet.",
+    "intent": "6"
+  },
+  {
+    "query": "Can I make a withdraw in my home currency at an ATM? I'm on vacation and am a bit worried because I don't have cash with me. Is it possible to withdraw here without any additional costs or fees?",
+    "intent": "76"
+  },
+  {
+    "query": "How did the extra charge on my card come in effect?",
+    "intent": "15"
+  },
+  {
+    "query": "Do you accept credit cards from the US",
+    "intent": "54"
+  },
+  {
+    "query": "Am I supposed to verify my identity?",
+    "intent": "74"
+  },
+  {
+    "query": "Can it specifically be delivered on a certain date?",
+    "intent": "12"
+  },
+  {
+    "query": "Please explain to me the process of getting a virtual card.",
+    "intent": "40"
+  },
+  {
+    "query": "Where is the card I ordered 2 weeks ago?",
+    "intent": "11"
+  },
+  {
+    "query": "My daughter needs to open account.",
+    "intent": "1"
+  },
+  {
+    "query": "Why is my refund not visible on my statement?",
+    "intent": "51"
+  },
+  {
+    "query": "Was there a number to track that I could get?",
+    "intent": "11"
+  },
+  {
+    "query": "What do I do when a charge has been made that I did not make?",
+    "intent": "20"
+  },
+  {
+    "query": "Why am I seeing a fee for transferring money?",
+    "intent": "64"
+  },
+  {
+    "query": "I would like to use this cheque to top up.  Can you tell me how to do that?",
+    "intent": "58"
+  },
+  {
+    "query": "Why am I unable to withdrawal cash?",
+    "intent": "26"
+  },
+  {
+    "query": "I was charged an extra pound.",
+    "intent": "34"
+  },
+  {
+    "query": "The cheque I sent a few days ago has not been deposited yet, what is the hold up?",
+    "intent": "6"
+  },
+  {
+    "query": "Help my prove my identity.",
+    "intent": "68"
+  },
+  {
+    "query": "Last Saturday, I was charged extra for the exchange rate on my payment. Is something wrong?",
+    "intent": "17"
+  },
+  {
+    "query": "I was charged the wing amount for an item.",
+    "intent": "17"
+  },
+  {
+    "query": "Card payment still pending.",
+    "intent": "45"
+  },
+  {
+    "query": "Can I top-up my card using a bank transfer.",
+    "intent": "65"
+  },
+  {
+    "query": "What is the highest amount I can top-up?",
+    "intent": "60"
+  },
+  {
+    "query": "My contactless is non-functional.",
+    "intent": "23"
+  },
+  {
+    "query": "i do not know what this charge is for",
+    "intent": "28"
+  },
+  {
+    "query": "There is a fraudulent payment!",
+    "intent": "16"
+  },
+  {
+    "query": "There is a vendor name I don't recognize on a payment from my account. I don't think I made this payment.",
+    "intent": "16"
+  },
+  {
+    "query": "Which fiat currencies do you currently support? Will this change in this future?",
+    "intent": "36"
+  },
+  {
+    "query": "What do I do if my card gets broken?",
+    "intent": "14"
+  },
+  {
+    "query": "Why can't I complete my transfer?",
+    "intent": "35"
+  },
+  {
+    "query": "Hi,  I have transferred money but beneficiary's account is credited with less amount. Now i have transfer the difference of the amount. I think there is some issue, could you please look into this.",
+    "intent": "64"
+  },
+  {
+    "query": "How do I track the card you sent to me?",
+    "intent": "11"
+  },
+  {
+    "query": "I initiated a payment a while ago and it is still showing as \"pending\", how long will it take to clear?",
+    "intent": "45"
+  },
+  {
+    "query": "I want to cancel a transfer I just made.",
+    "intent": "8"
+  },
+  {
+    "query": "What is the extra fee that showed up on my card?",
+    "intent": "15"
+  },
+  {
+    "query": "what are the reasons why you would not be able to process a payment",
+    "intent": "7"
+  },
+  {
+    "query": "Why is my top-up pending?",
+    "intent": "47"
+  },
+  {
+    "query": "Do you accept US credit cards?",
+    "intent": "54"
+  },
+  {
+    "query": "How to modify my details.",
+    "intent": "30"
+  },
+  {
+    "query": "Is there a fee for exchanging currency?",
+    "intent": "31"
+  },
+  {
+    "query": "I need to verify my funds.",
+    "intent": "70"
+  },
+  {
+    "query": "What do I need to do to correct this failed transfer?",
+    "intent": "35"
+  },
+  {
+    "query": "How do I see the source of my money?",
+    "intent": "70"
+  },
+  {
+    "query": "Got only $20 when I tried to withdraw $100.",
+    "intent": "75"
+  },
+  {
+    "query": "Is there a limit for top ups?",
+    "intent": "60"
+  },
+  {
+    "query": "There was a fee charged when I paid with my card.",
+    "intent": "15"
+  },
+  {
+    "query": "Tell me how to verify a top up.",
+    "intent": "71"
+  },
+  {
+    "query": "Why have I not yet received my virtual card?",
+    "intent": "40"
+  },
+  {
+    "query": "I refilled my account balance but got an error message.",
+    "intent": "61"
+  },
+  {
+    "query": "When will the cash that I put in the ATM be cleared from pending status?",
+    "intent": "46"
+  },
+  {
+    "query": "The amount of cash i have received is not correct.",
+    "intent": "75"
+  },
+  {
+    "query": "My refund is not showing up in my account. Where is it?",
+    "intent": "51"
+  },
+  {
+    "query": "Why haven't I gotten a virtual card yet?",
+    "intent": "40"
+  },
+  {
+    "query": "I was blocked by using the wrong pin too many times, can you help me?",
+    "intent": "49"
+  },
+  {
+    "query": "How do I fix a broken card?",
+    "intent": "14"
+  },
+  {
+    "query": "Are your cards available in the EU?",
+    "intent": "24"
+  },
+  {
+    "query": "I need to change a transfer.",
+    "intent": "8"
+  },
+  {
+    "query": "I made a transfer from my UK account a couple of hours ago.  Could you please make sure everything went alright.",
+    "intent": "5"
+  },
+  {
+    "query": "Where can I use my card to pay?",
+    "intent": "10"
+  },
+  {
+    "query": "Can you explain to me why a top-up would still be pending?",
+    "intent": "47"
+  },
+  {
+    "query": "What can I expect if I use bank transfer to top up my account?",
+    "intent": "65"
+  },
+  {
+    "query": "this verifying the top up is annoying",
+    "intent": "71"
+  },
+  {
+    "query": "Is there a way to order a virtual card on the website?",
+    "intent": "40"
+  },
+  {
+    "query": "Why are there fees for using a card?",
+    "intent": "15"
+  },
+  {
+    "query": "When will I receive the cash payment from the check I deposited?",
+    "intent": "6"
+  },
+  {
+    "query": "What countries do you operate in?",
+    "intent": "24"
+  },
+  {
+    "query": "What is going on with my cash deposit. I'm looking at my account balance and it is not there. It has been almost a week. Someone better get back to me asap.",
+    "intent": "6"
+  },
+  {
+    "query": "I've deposited a check but the cash isn't showing that it's there yet.",
+    "intent": "6"
+  },
+  {
+    "query": "How many disposable cards per person?",
+    "intent": "29"
+  },
+  {
+    "query": "I am angry that I got charged for using my card.",
+    "intent": "15"
+  },
+  {
+    "query": "How long before I can see that my cash withdrawal has taken place?",
+    "intent": "46"
+  },
+  {
+    "query": "What do I need to do to get my new card which I have requested 2 weeks ago?",
+    "intent": "11"
+  },
+  {
+    "query": "I sent a check into the system but still haven't received the cash yet",
+    "intent": "6"
+  },
+  {
+    "query": "I transferred money to another country several days ago, but my transaction is still pending. i have checked that the accounts are keyed in correctly. what sees to be the problem?",
+    "intent": "48"
+  },
+  {
+    "query": "How do I locate my PIN now that I have my card?",
+    "intent": "38"
+  },
+  {
+    "query": "Why is there a payment I didn't do in my app?",
+    "intent": "16"
+  },
+  {
+    "query": "In the app, how can I make it show the new card that arrived?",
+    "intent": "13"
+  },
+  {
+    "query": "I am seeing in the App a diret debit that its not mine",
+    "intent": "28"
+  },
+  {
+    "query": "Please check my Card. As Withdrawal was working fine so far, but this morning suddenly got declined. Can you please check the problem?",
+    "intent": "26"
+  },
+  {
+    "query": "Can I link my card I previously received?",
+    "intent": "13"
+  },
+  {
+    "query": "Can i cancel this purchase?",
+    "intent": "52"
+  },
+  {
+    "query": "I attempted to top up my car today, it failed! I just got it a couple of days before and it worked then. What is going on with it?",
+    "intent": "59"
+  },
+  {
+    "query": "How come I got charged extra for withdrawing cash?",
+    "intent": "19"
+  },
+  {
+    "query": "Does a discount apply if I exchange currencies frequently?",
+    "intent": "31"
+  },
+  {
+    "query": "Why cant I send money to a beneficiary?",
+    "intent": "7"
+  },
+  {
+    "query": "My beneficiary is unable to transact",
+    "intent": "7"
+  },
+  {
+    "query": "Why was I blocked from withdrawing from the ATM?",
+    "intent": "26"
+  },
+  {
+    "query": "I am seeing in the App a some cash withdrawal that does not belong to me",
+    "intent": "20"
+  },
+  {
+    "query": "Help me change my PIN.",
+    "intent": "21"
+  },
+  {
+    "query": "If I want to can I set up a new PIN?",
+    "intent": "21"
+  },
+  {
+    "query": "The exchange rate used on your app is really bad. I'm considering closing my account because of it.",
+    "intent": "17"
+  },
+  {
+    "query": "Is there a reason why my virtual card won't work?",
+    "intent": "72"
+  },
+  {
+    "query": "My top-up funds aren't available yet.",
+    "intent": "47"
+  },
+  {
+    "query": "How can I receive money from someone?",
+    "intent": "50"
+  },
+  {
+    "query": "I dont know what happened, but my payment was cancelled",
+    "intent": "53"
+  },
+  {
+    "query": "Someone must have found my card details as I don't recognize these transactions.",
+    "intent": "22"
+  },
+  {
+    "query": "What is the strange cash withdrawal on my statement?",
+    "intent": "20"
+  },
+  {
+    "query": "How can I investigate a missing refund?",
+    "intent": "51"
+  },
+  {
+    "query": "How do I go about transferring money using my credit card?",
+    "intent": "62"
+  },
+  {
+    "query": "Which fiat currencies are supported for holding and exchanging?",
+    "intent": "36"
+  },
+  {
+    "query": "I went to an ATM to get cash, but the app says the withdrawal is still pending. How is that possible when I already have the cash with me?",
+    "intent": "46"
+  },
+  {
+    "query": "Can you please tell me why I cant get money from the ATM?",
+    "intent": "26"
+  },
+  {
+    "query": "How many times can I use a virtual card?",
+    "intent": "29"
+  },
+  {
+    "query": "I requested a higher amount for my cash withdrawal",
+    "intent": "75"
+  },
+  {
+    "query": "What's the limit to how much I can top up?",
+    "intent": "60"
+  },
+  {
+    "query": "Why can't I use my beneficiary?",
+    "intent": "7"
+  },
+  {
+    "query": "Is there any way to see my card in the app?",
+    "intent": "13"
+  },
+  {
+    "query": "How much more do you charge for currency exchange?",
+    "intent": "31"
+  },
+  {
+    "query": "Can I change my PIN without going to a bank branch?",
+    "intent": "21"
+  },
+  {
+    "query": "What reasons could cause my top up to be reverted",
+    "intent": "61"
+  },
+  {
+    "query": "I'm interested in learning more about disposable virtual cards.",
+    "intent": "37"
+  },
+  {
+    "query": "I want to transfer some money from my other bank account into this one.",
+    "intent": "65"
+  },
+  {
+    "query": "You sent me a card and now I want to link it.",
+    "intent": "13"
+  },
+  {
+    "query": "I tired to get cash in the ATM but it was cancelled",
+    "intent": "26"
+  },
+  {
+    "query": "I misplaced my phone so I can't use the app! Does this mean I can't use my card?",
+    "intent": "42"
+  },
+  {
+    "query": "How much is the charge to top up via credit card?",
+    "intent": "57"
+  },
+  {
+    "query": "My transaction has not been received. When are you going to process it?",
+    "intent": "66"
+  },
+  {
+    "query": "Hi, It's urgent, please freeze my card. As someone has withdrawn money using my card in odd remote town. Since i have not done this withdrawal. Do it fast.",
+    "intent": "20"
+  },
+  {
+    "query": "Why did the ATM give me less money than what I requested?",
+    "intent": "75"
+  },
+  {
+    "query": "How can I receive my salary with a different currency?",
+    "intent": "50"
+  },
+  {
+    "query": "Do you offer any discounts for someone who exchanges currencies frequently?",
+    "intent": "31"
+  },
+  {
+    "query": "My account is devoid of funds. Am I permitted to submit additional money via bank transfer?",
+    "intent": "65"
+  },
+  {
+    "query": "The refund doesn't show in my account",
+    "intent": "51"
+  },
+  {
+    "query": "How long will it take for a bank transfer to show up on my account? It's been a couple hours but I havnt seen anything yet. Also it's from a UK account if that makes any difference.",
+    "intent": "5"
+  },
+  {
+    "query": "Why has my card been declined?",
+    "intent": "25"
+  },
+  {
+    "query": "I already have a card and want to link it",
+    "intent": "13"
+  },
+  {
+    "query": "Recipient has not received the money",
+    "intent": "66"
+  },
+  {
+    "query": "I tempted to get some money out of the machine earlier and it did not work.Looking now, the transaction actually shows to still be in progress. I would certainly appreciate someone look into this and let me know what's going on. I definitely do not want to be charged for money I never received.",
+    "intent": "46"
+  },
+  {
+    "query": "What can I do to make my physical card work?",
+    "intent": "14"
+  },
+  {
+    "query": "What does a transfer cost?",
+    "intent": "56"
+  },
+  {
+    "query": "I made a transaction at an atm and was charged extra for it.",
+    "intent": "19"
+  },
+  {
+    "query": "Are you able to delete my account?",
+    "intent": "55"
+  },
+  {
+    "query": "I have a confusing payment appear on my statement and I don't recognise it!",
+    "intent": "16"
+  },
+  {
+    "query": "help me link my card",
+    "intent": "13"
+  },
+  {
+    "query": "why is there a fee for the transfer I made?",
+    "intent": "64"
+  },
+  {
+    "query": "Won't let me top my card up!! Who can get it sorted out for me? It's urgent! How do I find out what the problem is with my card and how else to top it up?",
+    "intent": "59"
+  },
+  {
+    "query": "Where can I find out the fee structure for my account? I have been charged fees for some transactions, but not for other ones. I can't find a pattern in these fees.",
+    "intent": "15"
+  },
+  {
+    "query": "Is there a charge for getting cash?",
+    "intent": "19"
+  },
+  {
+    "query": "How long will my payment be pending?",
+    "intent": "45"
+  },
+  {
+    "query": "Will my pin number be sent with my card?",
+    "intent": "38"
+  },
+  {
+    "query": "I think that somebody is utilizing my card without my authorization!",
+    "intent": "22"
+  },
+  {
+    "query": "How long does a transfer transaction take?",
+    "intent": "67"
+  },
+  {
+    "query": "Can I use my Apple watch to fill my gas tank?",
+    "intent": "2"
+  },
+  {
+    "query": "They said I would get a refund but I don't see it on my statement.",
+    "intent": "51"
+  },
+  {
+    "query": "Is there a fee to make a transfer?",
+    "intent": "56"
+  },
+  {
+    "query": "My balance was not updated with my checque or cash deposit.",
+    "intent": "6"
+  },
+  {
+    "query": "Why has my transfer been declined?",
+    "intent": "27"
+  },
+  {
+    "query": "use my credit to add money",
+    "intent": "54"
+  },
+  {
+    "query": "How can I top up my card with another card?",
+    "intent": "54"
+  },
+  {
+    "query": "You provide support in what countries?",
+    "intent": "24"
+  },
+  {
+    "query": "I prefer Mastecard.",
+    "intent": "73"
+  },
+  {
+    "query": "Is there a certain age I need to be?",
+    "intent": "1"
+  },
+  {
+    "query": "Is there a disposable virtual card option?",
+    "intent": "37"
+  },
+  {
+    "query": "I am quite aggravated that I ordered online almost a month ago and I never got my package and I paid for it. I would really appreciate it if I could get a full refund back now.",
+    "intent": "52"
+  },
+  {
+    "query": "Are there charges for cash withdrawals?",
+    "intent": "19"
+  },
+  {
+    "query": "How much is the charge for a foreign currency exchange?",
+    "intent": "31"
+  },
+  {
+    "query": "For some reason my card payment didn't work",
+    "intent": "25"
+  },
+  {
+    "query": "Tell me what the steps for the identity checks are",
+    "intent": "69"
+  },
+  {
+    "query": "What are the sources for the funds in my account?",
+    "intent": "70"
+  },
+  {
+    "query": "I must make a transfer from China and it is urgent. How long before the transfer is complete?",
+    "intent": "67"
+  },
+  {
+    "query": "I have a pending money transfer",
+    "intent": "48"
+  },
+  {
+    "query": "My automatic top-up was unsuccessful",
+    "intent": "61"
+  },
+  {
+    "query": "Why are top-ups being verified?",
+    "intent": "71"
+  },
+  {
+    "query": "How much is it to buy another card? I was hoping to buy another one.",
+    "intent": "39"
+  },
+  {
+    "query": "How do I perform identity checks?",
+    "intent": "69"
+  },
+  {
+    "query": "Is American Express accepted?",
+    "intent": "54"
+  },
+  {
+    "query": "Tell me why my card payment has been declined.",
+    "intent": "25"
+  },
+  {
+    "query": "Does it cost me to add cash?",
+    "intent": "56"
+  },
+  {
+    "query": "I'd prefer to use my American Express when putting funds into my account.",
+    "intent": "54"
+  },
+  {
+    "query": "How does on apply fora refund on an item he ordered? I ordere an item and have not received it yet so i want to cancel it and get a refund",
+    "intent": "52"
+  },
+  {
+    "query": "When will the money from my bank transfer be available?",
+    "intent": "5"
+  }
+]

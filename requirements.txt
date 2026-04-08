@@ -1,4 +1,9 @@
-streamlit>=1.28.0
-openai>=1.3.0
-requests>=2.31.0
-python-dotenv>=1.0.0
+# Pin major versions for reproducibility; bump after testing.
+streamlit>=1.28.0,<2
+openai>=1.3.0,<2
+requests>=2.31.0,<3
+python-dotenv>=1.0.0,<2
+scikit-learn>=1.4.0,<2
+joblib>=1.3.0,<2
+datasets>=2.16.0,<4
+pytest>=8.0.0,<10

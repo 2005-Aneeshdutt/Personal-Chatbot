@@ -1,0 +1,16 @@
+Data sources for metrics (read this for honest reporting)
+============================================================
+
+1) Domain chatbot (timetable, exam, holiday, …)
+   - benchmark_queries.json / benchmark_stress.json — hand-written labels (small but non-generated).
+   - prepare_datasets.py → data_splits/* — default uses ONLY these files (no bulk synthetic).
+     By default ~50% of rows per intent go to test (25% train, 25% dev). Override: BENCHMARK_TEST_FRACTION=0.4
+   - Optional: USE_SYNTHETIC_BENCHMARKS=1 to include augmented/large generated files (inflated scores).
+
+2) Real public intent benchmark (recommended for “accurate” ML headline metrics)
+   - prepare_real_intent_splits.py → downloads Banking77 via Hugging Face (real user utterances).
+   - evaluate_real_intent_benchmark.py → train/test metrics on that data (77 banking intents).
+
+3) To add fully real college-domain metrics later
+   - Create data/real_domain/labeled_queries.json with { "query", "intent", "entities" } rows
+   - Keep a frozen test set you never train on; document collection in your report.

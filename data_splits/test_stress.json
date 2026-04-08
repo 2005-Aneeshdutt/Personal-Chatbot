@@ -1,0 +1,255 @@
+[
+  {
+    "query": "how much attendnce req",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance criteria pass",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "total credits degree",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "what class i have ece sem2 monday",
+    "intent": "timetable",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 2",
+      "day": "Monday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "mail id of mechanical dept",
+    "intent": "contact",
+    "entities": {
+      "department": "ME",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "min credits to pass",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "hostel form kaise bharu",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "is tmrw holiday",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credit req for btech",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "civil department office where",
+    "intent": "contact",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "examination timetable bt sem4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "2 oct 2026 holiday in clg?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "minimum attendance %",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "exam time electrical sem1",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "midterm mech sem7",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "schedule for ee sem 6",
+    "intent": "timetable",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 6",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "hod of cse",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "migration certificate process",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college closed day 01/01/26",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-01",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cse semester 8 exam schedule",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 8",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "computer science engg sem7 timetable",
+    "intent": "timetable",
+    "entities": {
+      "department": null,
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "tmrw cls for cse sem 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "scholarship process batao",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  }
+]

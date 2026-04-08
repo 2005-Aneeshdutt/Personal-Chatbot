@@ -1,0 +1,18 @@
+College Helpdesk Chatbot — architecture (short)
+==============================================
+
+User message (Streamlit UI)
+    → Optional trim to limits.max_query_chars (config/app_config.json)
+    → IntentDetector: TF-IDF + logistic regression (models/intent_model.pkl)
+    → EntityExtractor: patterns from data/entity_extraction.json
+    → Session context (department, semester, last intent)
+    → If intent maps to KB: KnowledgeBase reads data/*.json via config paths
+    → Else: LLMFallback (OpenAI or Ollama), prompt from config/prompts/
+    → Response to user
+
+Training / evaluation (offline)
+    → prepare_datasets.py → data_splits/ (hand-curated benchmarks by default)
+    → train_intent_model.py → merges train+dev for fitting; evaluate_chatbot.py on held-out test
+    → prepare_real_intent_splits.py + evaluate_real_intent_benchmark.py → Banking77 (real public intent data)
+
+See README.md for commands and METRICS.md for result tables.

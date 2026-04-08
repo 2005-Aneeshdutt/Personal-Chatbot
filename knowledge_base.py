@@ -1,42 +1,48 @@
 import json
 import os
 from datetime import datetime
-from typing import Dict, Optional, List, Any
+from typing import Dict, Optional
+
+from config_loader import load_config
 
 
 class KnowledgeBase:
-    def __init__(self, data_dir="data"):
-        self.data_dir = data_dir
+    def __init__(self, data_dir: Optional[str] = None, kb_files: Optional[Dict[str, str]] = None):
+        cfg = load_config()
+        paths = cfg["paths"]
+        self.data_dir = data_dir or paths["knowledge_base_dir"]
+        self.kb_files = kb_files or paths.get(
+            "kb_files",
+            {
+                "timetable": "timetable.json",
+                "exams": "exams.json",
+                "holidays": "holidays.json",
+                "academic_rules": "academic_rules.json",
+            },
+        )
         self.timetable = {}
         self.exams = {}
         self.holidays = {}
         self.academic_rules = {}
         self.load_all_data()
-    
-    def load_all_data(self):
-        try:
-            with open(os.path.join(self.data_dir, "timetable.json"), 'r', encoding='utf-8') as f:
-                self.timetable = json.load(f)
-        except FileNotFoundError:
-            print(f"Warning: timetable.json not found in {self.data_dir}")
-        
-        try:
-            with open(os.path.join(self.data_dir, "exams.json"), 'r', encoding='utf-8') as f:
-                self.exams = json.load(f)
-        except FileNotFoundError:
-            print(f"Warning: exams.json not found in {self.data_dir}")
-        
-        try:
-            with open(os.path.join(self.data_dir, "holidays.json"), 'r', encoding='utf-8') as f:
-                self.holidays = json.load(f)
-        except FileNotFoundError:
-            print(f"Warning: holidays.json not found in {self.data_dir}")
-        
-        try:
-            with open(os.path.join(self.data_dir, "academic_rules.json"), 'r', encoding='utf-8') as f:
-                self.academic_rules = json.load(f)
-        except FileNotFoundError:
-            print(f"Warning: academic_rules.json not found in {self.data_dir}")
+
+    def load_all_data(self) -> None:
+        mapping = [
+            ("timetable", "timetable"),
+            ("exams", "exams"),
+            ("holidays", "holidays"),
+            ("academic_rules", "academic_rules"),
+        ]
+        for attr, key in mapping:
+            name = self.kb_files.get(key)
+            if not name:
+                continue
+            path = os.path.join(self.data_dir, name)
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    setattr(self, attr, json.load(f))
+            except FileNotFoundError:
+                print(f"Warning: {name} not found at {path}")
     
     def get_timetable(self, department, semester, day=None):
         dept = department.upper()

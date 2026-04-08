@@ -1,0 +1,310 @@
+[
+  {
+    "query": "is 26-01-2026 holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-01-26",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "how many cr needed",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "bt semester 1 friday classes pls",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 1",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "How do I apply for hostel?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "college close on 2026-08-15?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Examination timetable for BT sem 4",
+    "intent": "exam",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 4",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "head of dept electrical",
+    "intent": "contact",
+    "entities": {
+      "department": "EE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Exam time for electrical sem 1",
+    "intent": "exam",
+    "entities": {
+      "department": "EE",
+      "semester": "Semester 1",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When is the next holiday?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Time table for civil sem 4 Tuesday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 4",
+      "day": "Tuesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Explain attendance requirement",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Department contact for ECE",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is there any holiday on 2026-11-14",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-11-14",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "attendance rule for exam hall ticket",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When are exams for CSE semester 3?",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Where can I pay tuition fees online?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Minimum attendance percentage for exams",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What period do we have in CSE sem 3 on Wed?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "when mid sem of cse s3",
+    "intent": "exam",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": "mid_semester"
+    }
+  },
+  {
+    "query": "Who is HOD of CSE?",
+    "intent": "contact",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Minimum credit for degree completion?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Which class for biotech sem 1 on Friday?",
+    "intent": "timetable",
+    "entities": {
+      "department": "BT",
+      "semester": "Semester 1",
+      "day": "Friday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "cse s3 sched on wed",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": null,
+      "day": "Wednesday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "biotech department phone",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "final exam for civil sem 2 kab hai",
+    "intent": "exam",
+    "entities": {
+      "department": "CE",
+      "semester": "Semester 2",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "tuition fee payment link",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Tell me credit policy",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "placement stats previous year",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  }
+]

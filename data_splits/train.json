@@ -1,0 +1,211 @@
+[
+  {
+    "query": "end sem exam ece sem 5 date?",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "clubs list for this sem",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Total credits for BTech?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Is college closed on 2026/12/25?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What is the timetable for CSE semester 3?",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "ece dept contact number",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "time table mech sem 5 tues",
+    "intent": "timetable",
+    "entities": {
+      "department": null,
+      "semester": "Semester 5",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "How to get migration certificate?",
+    "intent": "fallback",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "percent attendance needed",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "holiday 2026/12/25",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-12-25",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Office location for biotech department",
+    "intent": "contact",
+    "entities": {
+      "department": "BT",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Who is the department head of ECE?",
+    "intent": "contact",
+    "entities": {
+      "department": "ECE",
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "credits per sem?",
+    "intent": "credits",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What is the minimum attendance required?",
+    "intent": "attendance",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "show schedule for civil 4th sem thursday",
+    "intent": "timetable",
+    "entities": {
+      "department": "CE",
+      "semester": null,
+      "day": "Thursday",
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "What is the exam schedule for ECE sem 3",
+    "intent": "exam",
+    "entities": {
+      "department": "ECE",
+      "semester": "Semester 3",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  },
+  {
+    "query": "Holiday on 15/08/2026?",
+    "intent": "holiday",
+    "entities": {
+      "department": null,
+      "semester": null,
+      "day": null,
+      "date": "2026-08-15",
+      "exam_type": null
+    }
+  },
+  {
+    "query": "When are end sem exams for mechanical semester 7?",
+    "intent": "exam",
+    "entities": {
+      "department": "ME",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": "end_semester"
+    }
+  },
+  {
+    "query": "Schedule for computer science engineering sem 7",
+    "intent": "timetable",
+    "entities": {
+      "department": "CSE",
+      "semester": "Semester 7",
+      "day": null,
+      "date": null,
+      "exam_type": null
+    }
+  }
+]
